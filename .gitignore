@@ -2,18 +2,30 @@
 bin/
 bin-debug/
 bin-release/
+bin-release-temp/
 [Oo]bj/ # FlashDevelop obj
 [Bb]in/ # FlashDevelop bin
+out/
 
 # Other files and folders
 .settings/
+.metadata/
+.idea
 
 # Executables
 *.swf
 *.air
 *.ipa
 *.apk
+*.airi
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+~*
+*~
+*.p12
+*.mobileprovision
+
+リカバリ*
+.DS_Store
+Thumbs.db
+_starling_src_
+_ignore_
