@@ -4,13 +4,21 @@ AGALCodePrinters make it easier to develop AGAL1, AGAL2 and AGAL3 coding.
 # Usage
 
 1. Make new AgalPrinter class which extends the AgalPrinter suitable for your project's Context Profile.
-2. Write your codes with AgalPrinter methods in 'print' method overrided. Don't forget return super.print() at the end of your codes. With advanced IDE (like intelliJ IDEA, Flash Builder, Flash Develop...), code hints should help your coding effectively.
+2. Write your codes with AgalPrinter methods in 'print' method overrided. Don't forget return super.print() at the end of your codes. With advanced IDE ( like intelliJ IDEA, Flash Builder, Flash Develop... ), Code hints should help your coding effectively. Code hints apper for not only agal opecode method but also registers and register's component property.
 3. Instatiate your AgalPrinter class.
 4. Call 'print' method then you'll get agal code generated as String.
 
-#example 
+# A list of Agal Printers
+* AGAL1CodePrinterForBaselineConstrainedProfile
+* AGAL1CodePrinterForBaselineProfile
+* AGAL1CodePrinterForBaselineExtendedProfile
+* AGAL2CodePrinterForStandardConstrainedProfile
+* AGAL2CodePrinterForStandardProfile
+* AGAL3CodePrinter
 
-(from my PosterizationFilter code)
+# Example 
+
+Example from my PosterizationFilter code.
 
 ```exsanple.as
 class MyAGALCodePrinter extends AGAL1CodePrinterForBaselineExtendedProfile {
@@ -32,12 +40,12 @@ class MyAGALCodePrinter extends AGAL1CodePrinterForBaselineExtendedProfile {
 		return super.print(); // requied!
 	}
 }
+
+var printer:AGAL1CodePrinterForBaselineExtendedProfile = new MyAgalPrinter();
+trace(printer.print());
 ```
 
 ```output.txt
-var printer:AGAL1CodePrinterForBaselineExtendedProfile = new MyAgalPrinter();
-trace(printer.print());
-
 /* trace output
  div ft0.xyz, ft0.xyz, ft0.www
  mul ft0, ft0, fc0
