@@ -41,7 +41,7 @@ class MyAGALCodePrinter extends AGAL1CodePrinterForBaselineExtendedProfile {
 	}
 }
 
-var printer:AGAL1CodePrinterForBaselineExtendedProfile = new MyAgalPrinter();
+var printer:MyAGALCodePrinter = new MyAgalPrinter();
 trace(printer.print());
 ```
 
