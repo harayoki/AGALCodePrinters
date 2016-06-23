@@ -31,10 +31,14 @@ package harayoki.stage3d.agal {
 			_codes.length = 0;
 		}
 
-		public function print():String {
-			return _codes.join("\n");
+		public function setupCode():void {
+			// override me
 		}
 
+		public function print():String {
+			setupCode();
+			return _codes.join("\n");
+		}
 
 		public function prependCodeDirectly(code:String):void {
 			if(code != null && code.length > 0) {

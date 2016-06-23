@@ -4,7 +4,7 @@ AGALCodePrinters make it easier to develop AGAL1, AGAL2 and AGAL3 coding.
 # Usage
 
 1. Make new AgalPrinter class which extends the AgalPrinter suitable for your project's Context Profile.
-2. Write your codes with AgalPrinter methods in 'print' method overrided. Don't forget return super.print() at the end of your codes. With advanced IDE ( like intelliJ IDEA, Flash Builder, Flash Develop... ), Code hints should help your coding effectively. Code hints apper for not only agal opecode method but also registers and register's component property.
+2. Write your codes with AgalPrinter methods in 'setupCode' method overrided. With advanced IDE ( like intelliJ IDEA, Flash Builder, Flash Develop... ), Code hints should help your coding effectively. Code hints apper for not only agal opecode method but also registers and register's component property.
 3. Instatiate your AgalPrinter class.
 4. Call 'print' method then you'll get agal code generated as String.
 
@@ -23,7 +23,7 @@ Example from my PosterizationFilter code.
 ```exsanple.as
 class MyAGALCodePrinter extends AGAL1CodePrinterForBaselineExtendedProfile {
 
-	public override function print():String {
+	public override function setupCode():void {
 
 		divide(ft0.xyz, ft0.xyz, ft0.www);
 		multiply(ft0, ft0, fc0);
@@ -37,7 +37,6 @@ class MyAGALCodePrinter extends AGAL1CodePrinterForBaselineExtendedProfile {
 		multiply(ft0.xyz, ft0.xyz, ft0.www);
 		move(oc, ft0);
 
-		return super.print(); // requied!
 	}
 }
 
