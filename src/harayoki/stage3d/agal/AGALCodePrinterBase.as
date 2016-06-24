@@ -19,7 +19,7 @@ package harayoki.stage3d.agal {
 	public class AGALCodePrinterBase {
 
 		private var _codes:Vector.<String>;
-		protected var _agalVersion:int = 1;
+		protected var _agalVersion:uint = 1;
 		protected var regPool:AGALRegisterPool;
 		protected var maxNumToken:uint = 0;
 
@@ -28,7 +28,7 @@ package harayoki.stage3d.agal {
 			regPool = AGALRegisterPool.getInstance();
 		}
 
-		public function getAGALVersion():int {
+		public function getAGALVersion():uint {
 			return _agalVersion;
 		}
 
