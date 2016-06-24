@@ -24,6 +24,7 @@ package harayoki.stage3d.agal {
 	public class AGAL2CodePrinterForStandardProfile extends AGAL2CodePrinterForStandardConstrainedProfile implements IAGAL2CodePrinter {
 
 		public function AGAL2CodePrinterForStandardProfile() {
+			_agalVersion = 2;
 			maxNumToken = 1024;
 		}
 
