@@ -3,12 +3,6 @@
  * These codes are licensed under CC0.
  * http://creativecommons.org/publicdomain/zero/1.0/deed.ja
  */
-
-/*
- * AGALCodePrinters
- * These codes are licensed under CC0.
- * http://creativecommons.org/publicdomain/zero/1.0/deed.ja
- */
 package harayoki.stage3d.agal {
 	import harayoki.stage3d.agal.i.IAGAL1CodePrinter;
 	import harayoki.stage3d.agal.i.IAGALDestinationRegister;
