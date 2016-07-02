@@ -19,6 +19,7 @@ package harayoki.stage3d.agal {
 	public class AGALCodePrinterBase {
 
 		private var _codes:Vector.<String>;
+		private var _codesCopy:Vector.<String>;
 		protected var _agalVersion:uint = 1;
 		protected var regPool:AGALRegisterPool;
 		protected var maxNumToken:uint = 0;
@@ -40,9 +41,26 @@ package harayoki.stage3d.agal {
 			// override me
 		}
 
-		public function print():String {
+		private function _print(withLineNum:Boolean=false):String {
+			_codesCopy = _codes.slice();
 			setupCode();
-			return _codes.join("\n");
+			if(withLineNum) {
+				var len:int = _codes.length;
+				for(var i:int=0; i<len; i++) {
+					_codes[i] = (i+1) + " : " + _codes[i];
+				}
+			}
+			var code:String = _codes.join("\n");
+			_codes = _codesCopy.slice();
+			return code;
+		}
+
+		public function print():String {
+			return _print();
+		}
+
+		public function printWithLineNum():String {
+			return _print(true);
 		}
 
 		public function prependCodeDirectly(code:String):void {
