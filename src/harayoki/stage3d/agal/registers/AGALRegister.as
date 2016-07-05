@@ -23,7 +23,7 @@ package harayoki.stage3d.agal.registers {
 
 		public function clear():void {
 			_components = "";
-			_index = -1;
+			_index = 0;
 		}
 
 		public function set index(value:uint):void {

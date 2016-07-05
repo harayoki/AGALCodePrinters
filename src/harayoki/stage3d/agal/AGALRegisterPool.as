@@ -48,7 +48,7 @@ package harayoki.stage3d.agal {
 			} else if(register is AGALRegisterVertexTemporary) {
 				var v4:Vector.<AGALRegisterVertexTemporary> = _registers[AGALRegisterVertexTemporary];
 				v4.push(AGALRegisterVertexTemporary(register));
-			} else if(register is AGALRegisterVertexTemporary) {
+			} else if(register is AGALRegisterVertexAttribute) {
 				var v5:Vector.<AGALRegisterVertexAttribute> = _registers[AGALRegisterVertexAttribute];
 				v5.push(AGALRegisterVertexAttribute(register));
 			} else if(register is AGALRegisterVarying) {
@@ -57,6 +57,12 @@ package harayoki.stage3d.agal {
 			} else if(register is AGALRegisterFragmentSampler) {
 				var v7:Vector.<AGALRegisterFragmentSampler> = _registers[AGALRegisterFragmentSampler];
 				v7.push(AGALRegisterFragmentSampler(register));
+			} else if(register is AGALRegisterVertexOutput) {
+				// 定数なので何もしない
+			} else if(register is AGALRegisterFragmentOutput) {
+				// 定数なので何もしない
+			} else {
+				trace("unknown register : ", register);
 			}
 
 		}

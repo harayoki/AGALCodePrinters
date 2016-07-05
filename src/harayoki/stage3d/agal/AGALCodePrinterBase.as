@@ -4,6 +4,8 @@
  * http://creativecommons.org/publicdomain/zero/1.0/deed.ja
  */
 package harayoki.stage3d.agal {
+	import flash.utils.Dictionary;
+
 	import harayoki.stage3d.agal.i.IAGALDestinationRegister;
 	import harayoki.stage3d.agal.i.IAGALRegister;
 	import harayoki.stage3d.agal.registers.AGALRegisterFragmentConstant;
@@ -20,12 +22,14 @@ package harayoki.stage3d.agal {
 
 		private var _codes:Vector.<String>;
 		private var _codesCopy:Vector.<String>;
+		private var _usedRegisters:Dictionary;
 		protected var _agalVersion:uint = 1;
 		protected var regPool:AGALRegisterPool;
 		protected var maxNumToken:uint = 0;
 
 		public function AGALCodePrinterBase() {
 			_codes = new <String>[];
+			_usedRegisters = new Dictionary();
 			regPool = AGALRegisterPool.getInstance();
 		}
 
@@ -35,6 +39,14 @@ package harayoki.stage3d.agal {
 
 		public function clear():void {
 			_codes.length = 0;
+			_saveRegisters();
+		}
+
+		protected function _saveRegisters():void {
+			for each(var r:IAGALRegister in _usedRegisters) {
+				regPool.save(r);
+			}
+			_usedRegisters = new Dictionary();
 		}
 
 		public function setupCode():void {
@@ -44,6 +56,7 @@ package harayoki.stage3d.agal {
 		private function _print(withLineNum:Boolean=false):String {
 			_codesCopy = _codes.slice();
 			setupCode();
+			_saveRegisters();
 			if(withLineNum) {
 				var len:int = _codes.length;
 				for(var i:int=0; i<len; i++) {
@@ -85,11 +98,11 @@ package harayoki.stage3d.agal {
 		protected function _addCode(
 			ope:String, dest:IAGALDestinationRegister, src1:IAGALRegister, src2:IAGALRegister=null, flags:String=null):void {
 			var code:String = ope + " "+ dest.getCode() + ", " + src1.getCode();
-			regPool.save(dest);
-			regPool.save(src1);
+			_usedRegisters[dest] = dest;
+			_usedRegisters[src1] = src1;
 			if(src2) {
 				code += ", " +src2.getCode();
-				regPool.save(src2);
+				_usedRegisters[src2] = src2;
 			}
 			if(flags) {
 				code += flags;
