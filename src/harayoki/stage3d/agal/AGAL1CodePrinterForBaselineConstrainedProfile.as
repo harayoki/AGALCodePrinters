@@ -147,7 +147,7 @@ package harayoki.stage3d.agal {
 		}
 
 		public function setIfLessThan(dest:IAGALDestinationRegister, src1:IAGALRegister, src2:IAGALRegister):void {
-			_addCode("", dest, src1, src2);
+			_addCode("slt", dest, src1, src2);
 		}
 
 		public function setIfEqual(dest:IAGALDestinationRegister, src1:IAGALRegister, src2:IAGALRegister):void {
