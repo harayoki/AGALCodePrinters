@@ -9,5 +9,12 @@ package harayoki.stage3d.agal.registers {
 		public function AGALRegisterFragmentTemporary(index:uint) {
 			super("ft", index);
 		}
+
+		public override function clone():AGALRegister {
+			var reg:AGALRegisterFragmentTemporary = new AGALRegisterFragmentTemporary(_index);
+			reg._components = _components;
+			return reg;
+		}
+
 	}
 }

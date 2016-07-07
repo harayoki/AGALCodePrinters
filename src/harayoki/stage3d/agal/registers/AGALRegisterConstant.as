@@ -8,9 +8,9 @@ package harayoki.stage3d.agal.registers {
 	
 	public class AGALRegisterConstant implements IAGALConstantRegister {
 
-		private var _name:String = "";
-		private var _index:uint;
-		private var _components:String = "";
+		protected var _name:String = "";
+		protected var _index:uint;
+		protected var _components:String = "";
 
 		public function AGALRegisterConstant(name:String, index:uint) {
 			_name = name;
@@ -34,1709 +34,1714 @@ package harayoki.stage3d.agal.registers {
 			return _index;
 		}
 
+		public function clone():AGALRegisterConstant {
+			// サブクラスで実装
+			return null;
+		}
+
 		public function get x():AGALRegisterConstant {
 			_components = "x";
-			return this;
+			return clone();
 		}
 
 		public function get y():AGALRegisterConstant {
 			_components = "y";
-			return this;
+			return clone();
 		}
 
 		public function get z():AGALRegisterConstant {
 			_components = "z";
-			return this;
+			return clone();
 		}
 
 		public function get w():AGALRegisterConstant {
 			_components = "w";
-			return this;
+			return clone();
 		}
 
 		public function get xx():AGALRegisterConstant {
 			_components = "xx";
-			return this;
+			return clone();
 		}
 
 		public function get xy():AGALRegisterConstant {
 			_components = "xy";
-			return this;
+			return clone();
 		}
 
 		public function get xz():AGALRegisterConstant {
 			_components = "xz";
-			return this;
+			return clone();
 		}
 
 		public function get xw():AGALRegisterConstant {
 			_components = "xw";
-			return this;
+			return clone();
 		}
 
 		public function get yx():AGALRegisterConstant {
 			_components = "yx";
-			return this;
+			return clone();
 		}
 
 		public function get yy():AGALRegisterConstant {
 			_components = "yy";
-			return this;
+			return clone();
 		}
 
 		public function get yz():AGALRegisterConstant {
 			_components = "yz";
-			return this;
+			return clone();
 		}
 
 		public function get yw():AGALRegisterConstant {
 			_components = "yw";
-			return this;
+			return clone();
 		}
 
 		public function get zx():AGALRegisterConstant {
 			_components = "zx";
-			return this;
+			return clone();
 		}
 
 		public function get zy():AGALRegisterConstant {
 			_components = "zy";
-			return this;
+			return clone();
 		}
 
 		public function get zz():AGALRegisterConstant {
 			_components = "zz";
-			return this;
+			return clone();
 		}
 
 		public function get zw():AGALRegisterConstant {
 			_components = "zw";
-			return this;
+			return clone();
 		}
 
 		public function get wx():AGALRegisterConstant {
 			_components = "wx";
-			return this;
+			return clone();
 		}
 
 		public function get wy():AGALRegisterConstant {
 			_components = "wy";
-			return this;
+			return clone();
 		}
 
 		public function get wz():AGALRegisterConstant {
 			_components = "wz";
-			return this;
+			return clone();
 		}
 
 		public function get ww():AGALRegisterConstant {
 			_components = "ww";
-			return this;
+			return clone();
 		}
 
 		public function get xxx():AGALRegisterConstant {
 			_components = "xxx";
-			return this;
+			return clone();
 		}
 
 		public function get xxy():AGALRegisterConstant {
 			_components = "xxy";
-			return this;
+			return clone();
 		}
 
 		public function get xxz():AGALRegisterConstant {
 			_components = "xxz";
-			return this;
+			return clone();
 		}
 
 		public function get xxw():AGALRegisterConstant {
 			_components = "xxw";
-			return this;
+			return clone();
 		}
 
 		public function get xyx():AGALRegisterConstant {
 			_components = "xyx";
-			return this;
+			return clone();
 		}
 
 		public function get xyy():AGALRegisterConstant {
 			_components = "xyy";
-			return this;
+			return clone();
 		}
 
 		public function get xyz():AGALRegisterConstant {
 			_components = "xyz";
-			return this;
+			return clone();
 		}
 
 		public function get xyw():AGALRegisterConstant {
 			_components = "xyw";
-			return this;
+			return clone();
 		}
 
 		public function get xzx():AGALRegisterConstant {
 			_components = "xzx";
-			return this;
+			return clone();
 		}
 
 		public function get xzy():AGALRegisterConstant {
 			_components = "xzy";
-			return this;
+			return clone();
 		}
 
 		public function get xzz():AGALRegisterConstant {
 			_components = "xzz";
-			return this;
+			return clone();
 		}
 
 		public function get xzw():AGALRegisterConstant {
 			_components = "xzw";
-			return this;
+			return clone();
 		}
 
 		public function get xwx():AGALRegisterConstant {
 			_components = "xwx";
-			return this;
+			return clone();
 		}
 
 		public function get xwy():AGALRegisterConstant {
 			_components = "xwy";
-			return this;
+			return clone();
 		}
 
 		public function get xwz():AGALRegisterConstant {
 			_components = "xwz";
-			return this;
+			return clone();
 		}
 
 		public function get xww():AGALRegisterConstant {
 			_components = "xww";
-			return this;
+			return clone();
 		}
 
 		public function get yxx():AGALRegisterConstant {
 			_components = "yxx";
-			return this;
+			return clone();
 		}
 
 		public function get yxy():AGALRegisterConstant {
 			_components = "yxy";
-			return this;
+			return clone();
 		}
 
 		public function get yxz():AGALRegisterConstant {
 			_components = "yxz";
-			return this;
+			return clone();
 		}
 
 		public function get yxw():AGALRegisterConstant {
 			_components = "yxw";
-			return this;
+			return clone();
 		}
 
 		public function get yyx():AGALRegisterConstant {
 			_components = "yyx";
-			return this;
+			return clone();
 		}
 
 		public function get yyy():AGALRegisterConstant {
 			_components = "yyy";
-			return this;
+			return clone();
 		}
 
 		public function get yyz():AGALRegisterConstant {
 			_components = "yyz";
-			return this;
+			return clone();
 		}
 
 		public function get yyw():AGALRegisterConstant {
 			_components = "yyw";
-			return this;
+			return clone();
 		}
 
 		public function get yzx():AGALRegisterConstant {
 			_components = "yzx";
-			return this;
+			return clone();
 		}
 
 		public function get yzy():AGALRegisterConstant {
 			_components = "yzy";
-			return this;
+			return clone();
 		}
 
 		public function get yzz():AGALRegisterConstant {
 			_components = "yzz";
-			return this;
+			return clone();
 		}
 
 		public function get yzw():AGALRegisterConstant {
 			_components = "yzw";
-			return this;
+			return clone();
 		}
 
 		public function get ywx():AGALRegisterConstant {
 			_components = "ywx";
-			return this;
+			return clone();
 		}
 
 		public function get ywy():AGALRegisterConstant {
 			_components = "ywy";
-			return this;
+			return clone();
 		}
 
 		public function get ywz():AGALRegisterConstant {
 			_components = "ywz";
-			return this;
+			return clone();
 		}
 
 		public function get yww():AGALRegisterConstant {
 			_components = "yww";
-			return this;
+			return clone();
 		}
 
 		public function get zxx():AGALRegisterConstant {
 			_components = "zxx";
-			return this;
+			return clone();
 		}
 
 		public function get zxy():AGALRegisterConstant {
 			_components = "zxy";
-			return this;
+			return clone();
 		}
 
 		public function get zxz():AGALRegisterConstant {
 			_components = "zxz";
-			return this;
+			return clone();
 		}
 
 		public function get zxw():AGALRegisterConstant {
 			_components = "zxw";
-			return this;
+			return clone();
 		}
 
 		public function get zyx():AGALRegisterConstant {
 			_components = "zyx";
-			return this;
+			return clone();
 		}
 
 		public function get zyy():AGALRegisterConstant {
 			_components = "zyy";
-			return this;
+			return clone();
 		}
 
 		public function get zyz():AGALRegisterConstant {
 			_components = "zyz";
-			return this;
+			return clone();
 		}
 
 		public function get zyw():AGALRegisterConstant {
 			_components = "zyw";
-			return this;
+			return clone();
 		}
 
 		public function get zzx():AGALRegisterConstant {
 			_components = "zzx";
-			return this;
+			return clone();
 		}
 
 		public function get zzy():AGALRegisterConstant {
 			_components = "zzy";
-			return this;
+			return clone();
 		}
 
 		public function get zzz():AGALRegisterConstant {
 			_components = "zzz";
-			return this;
+			return clone();
 		}
 
 		public function get zzw():AGALRegisterConstant {
 			_components = "zzw";
-			return this;
+			return clone();
 		}
 
 		public function get zwx():AGALRegisterConstant {
 			_components = "zwx";
-			return this;
+			return clone();
 		}
 
 		public function get zwy():AGALRegisterConstant {
 			_components = "zwy";
-			return this;
+			return clone();
 		}
 
 		public function get zwz():AGALRegisterConstant {
 			_components = "zwz";
-			return this;
+			return clone();
 		}
 
 		public function get zww():AGALRegisterConstant {
 			_components = "zww";
-			return this;
+			return clone();
 		}
 
 		public function get wxx():AGALRegisterConstant {
 			_components = "wxx";
-			return this;
+			return clone();
 		}
 
 		public function get wxy():AGALRegisterConstant {
 			_components = "wxy";
-			return this;
+			return clone();
 		}
 
 		public function get wxz():AGALRegisterConstant {
 			_components = "wxz";
-			return this;
+			return clone();
 		}
 
 		public function get wxw():AGALRegisterConstant {
 			_components = "wxw";
-			return this;
+			return clone();
 		}
 
 		public function get wyx():AGALRegisterConstant {
 			_components = "wyx";
-			return this;
+			return clone();
 		}
 
 		public function get wyy():AGALRegisterConstant {
 			_components = "wyy";
-			return this;
+			return clone();
 		}
 
 		public function get wyz():AGALRegisterConstant {
 			_components = "wyz";
-			return this;
+			return clone();
 		}
 
 		public function get wyw():AGALRegisterConstant {
 			_components = "wyw";
-			return this;
+			return clone();
 		}
 
 		public function get wzx():AGALRegisterConstant {
 			_components = "wzx";
-			return this;
+			return clone();
 		}
 
 		public function get wzy():AGALRegisterConstant {
 			_components = "wzy";
-			return this;
+			return clone();
 		}
 
 		public function get wzz():AGALRegisterConstant {
 			_components = "wzz";
-			return this;
+			return clone();
 		}
 
 		public function get wzw():AGALRegisterConstant {
 			_components = "wzw";
-			return this;
+			return clone();
 		}
 
 		public function get wwx():AGALRegisterConstant {
 			_components = "wwx";
-			return this;
+			return clone();
 		}
 
 		public function get wwy():AGALRegisterConstant {
 			_components = "wwy";
-			return this;
+			return clone();
 		}
 
 		public function get wwz():AGALRegisterConstant {
 			_components = "wwz";
-			return this;
+			return clone();
 		}
 
 		public function get www():AGALRegisterConstant {
 			_components = "www";
-			return this;
+			return clone();
 		}
 
 		public function get xxxx():AGALRegisterConstant {
 			_components = "xxxx";
-			return this;
+			return clone();
 		}
 
 		public function get xxxy():AGALRegisterConstant {
 			_components = "xxxy";
-			return this;
+			return clone();
 		}
 
 		public function get xxxz():AGALRegisterConstant {
 			_components = "xxxz";
-			return this;
+			return clone();
 		}
 
 		public function get xxxw():AGALRegisterConstant {
 			_components = "xxxw";
-			return this;
+			return clone();
 		}
 
 		public function get xxyx():AGALRegisterConstant {
 			_components = "xxyx";
-			return this;
+			return clone();
 		}
 
 		public function get xxyy():AGALRegisterConstant {
 			_components = "xxyy";
-			return this;
+			return clone();
 		}
 
 		public function get xxyz():AGALRegisterConstant {
 			_components = "xxyz";
-			return this;
+			return clone();
 		}
 
 		public function get xxyw():AGALRegisterConstant {
 			_components = "xxyw";
-			return this;
+			return clone();
 		}
 
 		public function get xxzx():AGALRegisterConstant {
 			_components = "xxzx";
-			return this;
+			return clone();
 		}
 
 		public function get xxzy():AGALRegisterConstant {
 			_components = "xxzy";
-			return this;
+			return clone();
 		}
 
 		public function get xxzz():AGALRegisterConstant {
 			_components = "xxzz";
-			return this;
+			return clone();
 		}
 
 		public function get xxzw():AGALRegisterConstant {
 			_components = "xxzw";
-			return this;
+			return clone();
 		}
 
 		public function get xxwx():AGALRegisterConstant {
 			_components = "xxwx";
-			return this;
+			return clone();
 		}
 
 		public function get xxwy():AGALRegisterConstant {
 			_components = "xxwy";
-			return this;
+			return clone();
 		}
 
 		public function get xxwz():AGALRegisterConstant {
 			_components = "xxwz";
-			return this;
+			return clone();
 		}
 
 		public function get xxww():AGALRegisterConstant {
 			_components = "xxww";
-			return this;
+			return clone();
 		}
 
 		public function get xyxx():AGALRegisterConstant {
 			_components = "xyxx";
-			return this;
+			return clone();
 		}
 
 		public function get xyxy():AGALRegisterConstant {
 			_components = "xyxy";
-			return this;
+			return clone();
 		}
 
 		public function get xyxz():AGALRegisterConstant {
 			_components = "xyxz";
-			return this;
+			return clone();
 		}
 
 		public function get xyxw():AGALRegisterConstant {
 			_components = "xyxw";
-			return this;
+			return clone();
 		}
 
 		public function get xyyx():AGALRegisterConstant {
 			_components = "xyyx";
-			return this;
+			return clone();
 		}
 
 		public function get xyyy():AGALRegisterConstant {
 			_components = "xyyy";
-			return this;
+			return clone();
 		}
 
 		public function get xyyz():AGALRegisterConstant {
 			_components = "xyyz";
-			return this;
+			return clone();
 		}
 
 		public function get xyyw():AGALRegisterConstant {
 			_components = "xyyw";
-			return this;
+			return clone();
 		}
 
 		public function get xyzx():AGALRegisterConstant {
 			_components = "xyzx";
-			return this;
+			return clone();
 		}
 
 		public function get xyzy():AGALRegisterConstant {
 			_components = "xyzy";
-			return this;
+			return clone();
 		}
 
 		public function get xyzz():AGALRegisterConstant {
 			_components = "xyzz";
-			return this;
+			return clone();
 		}
 
 		public function get xyzw():AGALRegisterConstant {
 			_components = "xyzw";
-			return this;
+			return clone();
 		}
 
 		public function get xywx():AGALRegisterConstant {
 			_components = "xywx";
-			return this;
+			return clone();
 		}
 
 		public function get xywy():AGALRegisterConstant {
 			_components = "xywy";
-			return this;
+			return clone();
 		}
 
 		public function get xywz():AGALRegisterConstant {
 			_components = "xywz";
-			return this;
+			return clone();
 		}
 
 		public function get xyww():AGALRegisterConstant {
 			_components = "xyww";
-			return this;
+			return clone();
 		}
 
 		public function get xzxx():AGALRegisterConstant {
 			_components = "xzxx";
-			return this;
+			return clone();
 		}
 
 		public function get xzxy():AGALRegisterConstant {
 			_components = "xzxy";
-			return this;
+			return clone();
 		}
 
 		public function get xzxz():AGALRegisterConstant {
 			_components = "xzxz";
-			return this;
+			return clone();
 		}
 
 		public function get xzxw():AGALRegisterConstant {
 			_components = "xzxw";
-			return this;
+			return clone();
 		}
 
 		public function get xzyx():AGALRegisterConstant {
 			_components = "xzyx";
-			return this;
+			return clone();
 		}
 
 		public function get xzyy():AGALRegisterConstant {
 			_components = "xzyy";
-			return this;
+			return clone();
 		}
 
 		public function get xzyz():AGALRegisterConstant {
 			_components = "xzyz";
-			return this;
+			return clone();
 		}
 
 		public function get xzyw():AGALRegisterConstant {
 			_components = "xzyw";
-			return this;
+			return clone();
 		}
 
 		public function get xzzx():AGALRegisterConstant {
 			_components = "xzzx";
-			return this;
+			return clone();
 		}
 
 		public function get xzzy():AGALRegisterConstant {
 			_components = "xzzy";
-			return this;
+			return clone();
 		}
 
 		public function get xzzz():AGALRegisterConstant {
 			_components = "xzzz";
-			return this;
+			return clone();
 		}
 
 		public function get xzzw():AGALRegisterConstant {
 			_components = "xzzw";
-			return this;
+			return clone();
 		}
 
 		public function get xzwx():AGALRegisterConstant {
 			_components = "xzwx";
-			return this;
+			return clone();
 		}
 
 		public function get xzwy():AGALRegisterConstant {
 			_components = "xzwy";
-			return this;
+			return clone();
 		}
 
 		public function get xzwz():AGALRegisterConstant {
 			_components = "xzwz";
-			return this;
+			return clone();
 		}
 
 		public function get xzww():AGALRegisterConstant {
 			_components = "xzww";
-			return this;
+			return clone();
 		}
 
 		public function get xwxx():AGALRegisterConstant {
 			_components = "xwxx";
-			return this;
+			return clone();
 		}
 
 		public function get xwxy():AGALRegisterConstant {
 			_components = "xwxy";
-			return this;
+			return clone();
 		}
 
 		public function get xwxz():AGALRegisterConstant {
 			_components = "xwxz";
-			return this;
+			return clone();
 		}
 
 		public function get xwxw():AGALRegisterConstant {
 			_components = "xwxw";
-			return this;
+			return clone();
 		}
 
 		public function get xwyx():AGALRegisterConstant {
 			_components = "xwyx";
-			return this;
+			return clone();
 		}
 
 		public function get xwyy():AGALRegisterConstant {
 			_components = "xwyy";
-			return this;
+			return clone();
 		}
 
 		public function get xwyz():AGALRegisterConstant {
 			_components = "xwyz";
-			return this;
+			return clone();
 		}
 
 		public function get xwyw():AGALRegisterConstant {
 			_components = "xwyw";
-			return this;
+			return clone();
 		}
 
 		public function get xwzx():AGALRegisterConstant {
 			_components = "xwzx";
-			return this;
+			return clone();
 		}
 
 		public function get xwzy():AGALRegisterConstant {
 			_components = "xwzy";
-			return this;
+			return clone();
 		}
 
 		public function get xwzz():AGALRegisterConstant {
 			_components = "xwzz";
-			return this;
+			return clone();
 		}
 
 		public function get xwzw():AGALRegisterConstant {
 			_components = "xwzw";
-			return this;
+			return clone();
 		}
 
 		public function get xwwx():AGALRegisterConstant {
 			_components = "xwwx";
-			return this;
+			return clone();
 		}
 
 		public function get xwwy():AGALRegisterConstant {
 			_components = "xwwy";
-			return this;
+			return clone();
 		}
 
 		public function get xwwz():AGALRegisterConstant {
 			_components = "xwwz";
-			return this;
+			return clone();
 		}
 
 		public function get xwww():AGALRegisterConstant {
 			_components = "xwww";
-			return this;
+			return clone();
 		}
 
 		public function get ():AGALRegisterConstant {
 			_components = "";
-			return this;
+			return clone();
 		}
 
 		public function get yxxx():AGALRegisterConstant {
 			_components = "yxxx";
-			return this;
+			return clone();
 		}
 
 		public function get yxxy():AGALRegisterConstant {
 			_components = "yxxy";
-			return this;
+			return clone();
 		}
 
 		public function get yxxz():AGALRegisterConstant {
 			_components = "yxxz";
-			return this;
+			return clone();
 		}
 
 		public function get yxxw():AGALRegisterConstant {
 			_components = "yxxw";
-			return this;
+			return clone();
 		}
 
 		public function get yxyx():AGALRegisterConstant {
 			_components = "yxyx";
-			return this;
+			return clone();
 		}
 
 		public function get yxyy():AGALRegisterConstant {
 			_components = "yxyy";
-			return this;
+			return clone();
 		}
 
 		public function get yxyz():AGALRegisterConstant {
 			_components = "yxyz";
-			return this;
+			return clone();
 		}
 
 		public function get yxyw():AGALRegisterConstant {
 			_components = "yxyw";
-			return this;
+			return clone();
 		}
 
 		public function get yxzx():AGALRegisterConstant {
 			_components = "yxzx";
-			return this;
+			return clone();
 		}
 
 		public function get yxzy():AGALRegisterConstant {
 			_components = "yxzy";
-			return this;
+			return clone();
 		}
 
 		public function get yxzz():AGALRegisterConstant {
 			_components = "yxzz";
-			return this;
+			return clone();
 		}
 
 		public function get yxzw():AGALRegisterConstant {
 			_components = "yxzw";
-			return this;
+			return clone();
 		}
 
 		public function get yxwx():AGALRegisterConstant {
 			_components = "yxwx";
-			return this;
+			return clone();
 		}
 
 		public function get yxwy():AGALRegisterConstant {
 			_components = "yxwy";
-			return this;
+			return clone();
 		}
 
 		public function get yxwz():AGALRegisterConstant {
 			_components = "yxwz";
-			return this;
+			return clone();
 		}
 
 		public function get yxww():AGALRegisterConstant {
 			_components = "yxww";
-			return this;
+			return clone();
 		}
 
 		public function get yyxx():AGALRegisterConstant {
 			_components = "yyxx";
-			return this;
+			return clone();
 		}
 
 		public function get yyxy():AGALRegisterConstant {
 			_components = "yyxy";
-			return this;
+			return clone();
 		}
 
 		public function get yyxz():AGALRegisterConstant {
 			_components = "yyxz";
-			return this;
+			return clone();
 		}
 
 		public function get yyxw():AGALRegisterConstant {
 			_components = "yyxw";
-			return this;
+			return clone();
 		}
 
 		public function get yyyx():AGALRegisterConstant {
 			_components = "yyyx";
-			return this;
+			return clone();
 		}
 
 		public function get yyyy():AGALRegisterConstant {
 			_components = "yyyy";
-			return this;
+			return clone();
 		}
 
 		public function get yyyz():AGALRegisterConstant {
 			_components = "yyyz";
-			return this;
+			return clone();
 		}
 
 		public function get yyyw():AGALRegisterConstant {
 			_components = "yyyw";
-			return this;
+			return clone();
 		}
 
 		public function get yyzx():AGALRegisterConstant {
 			_components = "yyzx";
-			return this;
+			return clone();
 		}
 
 		public function get yyzy():AGALRegisterConstant {
 			_components = "yyzy";
-			return this;
+			return clone();
 		}
 
 		public function get yyzz():AGALRegisterConstant {
 			_components = "yyzz";
-			return this;
+			return clone();
 		}
 
 		public function get yyzw():AGALRegisterConstant {
 			_components = "yyzw";
-			return this;
+			return clone();
 		}
 
 		public function get yywx():AGALRegisterConstant {
 			_components = "yywx";
-			return this;
+			return clone();
 		}
 
 		public function get yywy():AGALRegisterConstant {
 			_components = "yywy";
-			return this;
+			return clone();
 		}
 
 		public function get yywz():AGALRegisterConstant {
 			_components = "yywz";
-			return this;
+			return clone();
 		}
 
 		public function get yyww():AGALRegisterConstant {
 			_components = "yyww";
-			return this;
+			return clone();
 		}
 
 		public function get yzxx():AGALRegisterConstant {
 			_components = "yzxx";
-			return this;
+			return clone();
 		}
 
 		public function get yzxy():AGALRegisterConstant {
 			_components = "yzxy";
-			return this;
+			return clone();
 		}
 
 		public function get yzxz():AGALRegisterConstant {
 			_components = "yzxz";
-			return this;
+			return clone();
 		}
 
 		public function get yzxw():AGALRegisterConstant {
 			_components = "yzxw";
-			return this;
+			return clone();
 		}
 
 		public function get yzyx():AGALRegisterConstant {
 			_components = "yzyx";
-			return this;
+			return clone();
 		}
 
 		public function get yzyy():AGALRegisterConstant {
 			_components = "yzyy";
-			return this;
+			return clone();
 		}
 
 		public function get yzyz():AGALRegisterConstant {
 			_components = "yzyz";
-			return this;
+			return clone();
 		}
 
 		public function get yzyw():AGALRegisterConstant {
 			_components = "yzyw";
-			return this;
+			return clone();
 		}
 
 		public function get yzzx():AGALRegisterConstant {
 			_components = "yzzx";
-			return this;
+			return clone();
 		}
 
 		public function get yzzy():AGALRegisterConstant {
 			_components = "yzzy";
-			return this;
+			return clone();
 		}
 
 		public function get yzzz():AGALRegisterConstant {
 			_components = "yzzz";
-			return this;
+			return clone();
 		}
 
 		public function get yzzw():AGALRegisterConstant {
 			_components = "yzzw";
-			return this;
+			return clone();
 		}
 
 		public function get yzwx():AGALRegisterConstant {
 			_components = "yzwx";
-			return this;
+			return clone();
 		}
 
 		public function get yzwy():AGALRegisterConstant {
 			_components = "yzwy";
-			return this;
+			return clone();
 		}
 
 		public function get yzwz():AGALRegisterConstant {
 			_components = "yzwz";
-			return this;
+			return clone();
 		}
 
 		public function get yzww():AGALRegisterConstant {
 			_components = "yzww";
-			return this;
+			return clone();
 		}
 
 		public function get ywxx():AGALRegisterConstant {
 			_components = "ywxx";
-			return this;
+			return clone();
 		}
 
 		public function get ywxy():AGALRegisterConstant {
 			_components = "ywxy";
-			return this;
+			return clone();
 		}
 
 		public function get ywxz():AGALRegisterConstant {
 			_components = "ywxz";
-			return this;
+			return clone();
 		}
 
 		public function get ywxw():AGALRegisterConstant {
 			_components = "ywxw";
-			return this;
+			return clone();
 		}
 
 		public function get ywyx():AGALRegisterConstant {
 			_components = "ywyx";
-			return this;
+			return clone();
 		}
 
 		public function get ywyy():AGALRegisterConstant {
 			_components = "ywyy";
-			return this;
+			return clone();
 		}
 
 		public function get ywyz():AGALRegisterConstant {
 			_components = "ywyz";
-			return this;
+			return clone();
 		}
 
 		public function get ywyw():AGALRegisterConstant {
 			_components = "ywyw";
-			return this;
+			return clone();
 		}
 
 		public function get ywzx():AGALRegisterConstant {
 			_components = "ywzx";
-			return this;
+			return clone();
 		}
 
 		public function get ywzy():AGALRegisterConstant {
 			_components = "ywzy";
-			return this;
+			return clone();
 		}
 
 		public function get ywzz():AGALRegisterConstant {
 			_components = "ywzz";
-			return this;
+			return clone();
 		}
 
 		public function get ywzw():AGALRegisterConstant {
 			_components = "ywzw";
-			return this;
+			return clone();
 		}
 
 		public function get ywwx():AGALRegisterConstant {
 			_components = "ywwx";
-			return this;
+			return clone();
 		}
 
 		public function get ywwy():AGALRegisterConstant {
 			_components = "ywwy";
-			return this;
+			return clone();
 		}
 
 		public function get ywwz():AGALRegisterConstant {
 			_components = "ywwz";
-			return this;
+			return clone();
 		}
 
 		public function get ywww():AGALRegisterConstant {
 			_components = "ywww";
-			return this;
+			return clone();
 		}
 
 		public function get zxxx():AGALRegisterConstant {
 			_components = "zxxx";
-			return this;
+			return clone();
 		}
 
 		public function get zxxy():AGALRegisterConstant {
 			_components = "zxxy";
-			return this;
+			return clone();
 		}
 
 		public function get zxxz():AGALRegisterConstant {
 			_components = "zxxz";
-			return this;
+			return clone();
 		}
 
 		public function get zxxw():AGALRegisterConstant {
 			_components = "zxxw";
-			return this;
+			return clone();
 		}
 
 		public function get zxyx():AGALRegisterConstant {
 			_components = "zxyx";
-			return this;
+			return clone();
 		}
 
 		public function get zxyy():AGALRegisterConstant {
 			_components = "zxyy";
-			return this;
+			return clone();
 		}
 
 		public function get zxyz():AGALRegisterConstant {
 			_components = "zxyz";
-			return this;
+			return clone();
 		}
 
 		public function get zxyw():AGALRegisterConstant {
 			_components = "zxyw";
-			return this;
+			return clone();
 		}
 
 		public function get zxzx():AGALRegisterConstant {
 			_components = "zxzx";
-			return this;
+			return clone();
 		}
 
 		public function get zxzy():AGALRegisterConstant {
 			_components = "zxzy";
-			return this;
+			return clone();
 		}
 
 		public function get zxzz():AGALRegisterConstant {
 			_components = "zxzz";
-			return this;
+			return clone();
 		}
 
 		public function get zxzw():AGALRegisterConstant {
 			_components = "zxzw";
-			return this;
+			return clone();
 		}
 
 		public function get zxwx():AGALRegisterConstant {
 			_components = "zxwx";
-			return this;
+			return clone();
 		}
 
 		public function get zxwy():AGALRegisterConstant {
 			_components = "zxwy";
-			return this;
+			return clone();
 		}
 
 		public function get zxwz():AGALRegisterConstant {
 			_components = "zxwz";
-			return this;
+			return clone();
 		}
 
 		public function get zxww():AGALRegisterConstant {
 			_components = "zxww";
-			return this;
+			return clone();
 		}
 
 		public function get zyxx():AGALRegisterConstant {
 			_components = "zyxx";
-			return this;
+			return clone();
 		}
 
 		public function get zyxy():AGALRegisterConstant {
 			_components = "zyxy";
-			return this;
+			return clone();
 		}
 
 		public function get zyxz():AGALRegisterConstant {
 			_components = "zyxz";
-			return this;
+			return clone();
 		}
 
 		public function get zyxw():AGALRegisterConstant {
 			_components = "zyxw";
-			return this;
+			return clone();
 		}
 
 		public function get zyyx():AGALRegisterConstant {
 			_components = "zyyx";
-			return this;
+			return clone();
 		}
 
 		public function get zyyy():AGALRegisterConstant {
 			_components = "zyyy";
-			return this;
+			return clone();
 		}
 
 		public function get zyyz():AGALRegisterConstant {
 			_components = "zyyz";
-			return this;
+			return clone();
 		}
 
 		public function get zyyw():AGALRegisterConstant {
 			_components = "zyyw";
-			return this;
+			return clone();
 		}
 
 		public function get zyzx():AGALRegisterConstant {
 			_components = "zyzx";
-			return this;
+			return clone();
 		}
 
 		public function get zyzy():AGALRegisterConstant {
 			_components = "zyzy";
-			return this;
+			return clone();
 		}
 
 		public function get zyzz():AGALRegisterConstant {
 			_components = "zyzz";
-			return this;
+			return clone();
 		}
 
 		public function get zyzw():AGALRegisterConstant {
 			_components = "zyzw";
-			return this;
+			return clone();
 		}
 
 		public function get zywx():AGALRegisterConstant {
 			_components = "zywx";
-			return this;
+			return clone();
 		}
 
 		public function get zywy():AGALRegisterConstant {
 			_components = "zywy";
-			return this;
+			return clone();
 		}
 
 		public function get zywz():AGALRegisterConstant {
 			_components = "zywz";
-			return this;
+			return clone();
 		}
 
 		public function get zyww():AGALRegisterConstant {
 			_components = "zyww";
-			return this;
+			return clone();
 		}
 
 		public function get zzxx():AGALRegisterConstant {
 			_components = "zzxx";
-			return this;
+			return clone();
 		}
 
 		public function get zzxy():AGALRegisterConstant {
 			_components = "zzxy";
-			return this;
+			return clone();
 		}
 
 		public function get zzxz():AGALRegisterConstant {
 			_components = "zzxz";
-			return this;
+			return clone();
 		}
 
 		public function get zzxw():AGALRegisterConstant {
 			_components = "zzxw";
-			return this;
+			return clone();
 		}
 
 		public function get zzyx():AGALRegisterConstant {
 			_components = "zzyx";
-			return this;
+			return clone();
 		}
 
 		public function get zzyy():AGALRegisterConstant {
 			_components = "zzyy";
-			return this;
+			return clone();
 		}
 
 		public function get zzyz():AGALRegisterConstant {
 			_components = "zzyz";
-			return this;
+			return clone();
 		}
 
 		public function get zzyw():AGALRegisterConstant {
 			_components = "zzyw";
-			return this;
+			return clone();
 		}
 
 		public function get zzzx():AGALRegisterConstant {
 			_components = "zzzx";
-			return this;
+			return clone();
 		}
 
 		public function get zzzy():AGALRegisterConstant {
 			_components = "zzzy";
-			return this;
+			return clone();
 		}
 
 		public function get zzzz():AGALRegisterConstant {
 			_components = "zzzz";
-			return this;
+			return clone();
 		}
 
 		public function get zzzw():AGALRegisterConstant {
 			_components = "zzzw";
-			return this;
+			return clone();
 		}
 
 		public function get zzwx():AGALRegisterConstant {
 			_components = "zzwx";
-			return this;
+			return clone();
 		}
 
 		public function get zzwy():AGALRegisterConstant {
 			_components = "zzwy";
-			return this;
+			return clone();
 		}
 
 		public function get zzwz():AGALRegisterConstant {
 			_components = "zzwz";
-			return this;
+			return clone();
 		}
 
 		public function get zzww():AGALRegisterConstant {
 			_components = "zzww";
-			return this;
+			return clone();
 		}
 
 		public function get zwxx():AGALRegisterConstant {
 			_components = "zwxx";
-			return this;
+			return clone();
 		}
 
 		public function get zwxy():AGALRegisterConstant {
 			_components = "zwxy";
-			return this;
+			return clone();
 		}
 
 		public function get zwxz():AGALRegisterConstant {
 			_components = "zwxz";
-			return this;
+			return clone();
 		}
 
 		public function get zwxw():AGALRegisterConstant {
 			_components = "zwxw";
-			return this;
+			return clone();
 		}
 
 		public function get zwyx():AGALRegisterConstant {
 			_components = "zwyx";
-			return this;
+			return clone();
 		}
 
 		public function get zwyy():AGALRegisterConstant {
 			_components = "zwyy";
-			return this;
+			return clone();
 		}
 
 		public function get zwyz():AGALRegisterConstant {
 			_components = "zwyz";
-			return this;
+			return clone();
 		}
 
 		public function get zwyw():AGALRegisterConstant {
 			_components = "zwyw";
-			return this;
+			return clone();
 		}
 
 		public function get zwzx():AGALRegisterConstant {
 			_components = "zwzx";
-			return this;
+			return clone();
 		}
 
 		public function get zwzy():AGALRegisterConstant {
 			_components = "zwzy";
-			return this;
+			return clone();
 		}
 
 		public function get zwzz():AGALRegisterConstant {
 			_components = "zwzz";
-			return this;
+			return clone();
 		}
 
 		public function get zwzw():AGALRegisterConstant {
 			_components = "zwzw";
-			return this;
+			return clone();
 		}
 
 		public function get zwwx():AGALRegisterConstant {
 			_components = "zwwx";
-			return this;
+			return clone();
 		}
 
 		public function get zwwy():AGALRegisterConstant {
 			_components = "zwwy";
-			return this;
+			return clone();
 		}
 
 		public function get zwwz():AGALRegisterConstant {
 			_components = "zwwz";
-			return this;
+			return clone();
 		}
 
 		public function get zwww():AGALRegisterConstant {
 			_components = "zwww";
-			return this;
+			return clone();
 		}
 
 		public function get wxxx():AGALRegisterConstant {
 			_components = "wxxx";
-			return this;
+			return clone();
 		}
 
 		public function get wxxy():AGALRegisterConstant {
 			_components = "wxxy";
-			return this;
+			return clone();
 		}
 
 		public function get wxxz():AGALRegisterConstant {
 			_components = "wxxz";
-			return this;
+			return clone();
 		}
 
 		public function get wxxw():AGALRegisterConstant {
 			_components = "wxxw";
-			return this;
+			return clone();
 		}
 
 		public function get wxyx():AGALRegisterConstant {
 			_components = "wxyx";
-			return this;
+			return clone();
 		}
 
 		public function get wxyy():AGALRegisterConstant {
 			_components = "wxyy";
-			return this;
+			return clone();
 		}
 
 		public function get wxyz():AGALRegisterConstant {
 			_components = "wxyz";
-			return this;
+			return clone();
 		}
 
 		public function get wxyw():AGALRegisterConstant {
 			_components = "wxyw";
-			return this;
+			return clone();
 		}
 
 		public function get wxzx():AGALRegisterConstant {
 			_components = "wxzx";
-			return this;
+			return clone();
 		}
 
 		public function get wxzy():AGALRegisterConstant {
 			_components = "wxzy";
-			return this;
+			return clone();
 		}
 
 		public function get wxzz():AGALRegisterConstant {
 			_components = "wxzz";
-			return this;
+			return clone();
 		}
 
 		public function get wxzw():AGALRegisterConstant {
 			_components = "wxzw";
-			return this;
+			return clone();
 		}
 
 		public function get wxwx():AGALRegisterConstant {
 			_components = "wxwx";
-			return this;
+			return clone();
 		}
 
 		public function get wxwy():AGALRegisterConstant {
 			_components = "wxwy";
-			return this;
+			return clone();
 		}
 
 		public function get wxwz():AGALRegisterConstant {
 			_components = "wxwz";
-			return this;
+			return clone();
 		}
 
 		public function get wxww():AGALRegisterConstant {
 			_components = "wxww";
-			return this;
+			return clone();
 		}
 
 		public function get wyxx():AGALRegisterConstant {
 			_components = "wyxx";
-			return this;
+			return clone();
 		}
 
 		public function get wyxy():AGALRegisterConstant {
 			_components = "wyxy";
-			return this;
+			return clone();
 		}
 
 		public function get wyxz():AGALRegisterConstant {
 			_components = "wyxz";
-			return this;
+			return clone();
 		}
 
 		public function get wyxw():AGALRegisterConstant {
 			_components = "wyxw";
-			return this;
+			return clone();
 		}
 
 		public function get wyyx():AGALRegisterConstant {
 			_components = "wyyx";
-			return this;
+			return clone();
 		}
 
 		public function get wyyy():AGALRegisterConstant {
 			_components = "wyyy";
-			return this;
+			return clone();
 		}
 
 		public function get wyyz():AGALRegisterConstant {
 			_components = "wyyz";
-			return this;
+			return clone();
 		}
 
 		public function get wyyw():AGALRegisterConstant {
 			_components = "wyyw";
-			return this;
+			return clone();
 		}
 
 		public function get wyzx():AGALRegisterConstant {
 			_components = "wyzx";
-			return this;
+			return clone();
 		}
 
 		public function get wyzy():AGALRegisterConstant {
 			_components = "wyzy";
-			return this;
+			return clone();
 		}
 
 		public function get wyzz():AGALRegisterConstant {
 			_components = "wyzz";
-			return this;
+			return clone();
 		}
 
 		public function get wyzw():AGALRegisterConstant {
 			_components = "wyzw";
-			return this;
+			return clone();
 		}
 
 		public function get wywx():AGALRegisterConstant {
 			_components = "wywx";
-			return this;
+			return clone();
 		}
 
 		public function get wywy():AGALRegisterConstant {
 			_components = "wywy";
-			return this;
+			return clone();
 		}
 
 		public function get wywz():AGALRegisterConstant {
 			_components = "wywz";
-			return this;
+			return clone();
 		}
 
 		public function get wyww():AGALRegisterConstant {
 			_components = "wyww";
-			return this;
+			return clone();
 		}
 
 		public function get wzxx():AGALRegisterConstant {
 			_components = "wzxx";
-			return this;
+			return clone();
 		}
 
 		public function get wzxy():AGALRegisterConstant {
 			_components = "wzxy";
-			return this;
+			return clone();
 		}
 
 		public function get wzxz():AGALRegisterConstant {
 			_components = "wzxz";
-			return this;
+			return clone();
 		}
 
 		public function get wzxw():AGALRegisterConstant {
 			_components = "wzxw";
-			return this;
+			return clone();
 		}
 
 		public function get wzyx():AGALRegisterConstant {
 			_components = "wzyx";
-			return this;
+			return clone();
 		}
 
 		public function get wzyy():AGALRegisterConstant {
 			_components = "wzyy";
-			return this;
+			return clone();
 		}
 
 		public function get wzyz():AGALRegisterConstant {
 			_components = "wzyz";
-			return this;
+			return clone();
 		}
 
 		public function get wzyw():AGALRegisterConstant {
 			_components = "wzyw";
-			return this;
+			return clone();
 		}
 
 		public function get wzzx():AGALRegisterConstant {
 			_components = "wzzx";
-			return this;
+			return clone();
 		}
 
 		public function get wzzy():AGALRegisterConstant {
 			_components = "wzzy";
-			return this;
+			return clone();
 		}
 
 		public function get wzzz():AGALRegisterConstant {
 			_components = "wzzz";
-			return this;
+			return clone();
 		}
 
 		public function get wzzw():AGALRegisterConstant {
 			_components = "wzzw";
-			return this;
+			return clone();
 		}
 
 		public function get wzwx():AGALRegisterConstant {
 			_components = "wzwx";
-			return this;
+			return clone();
 		}
 
 		public function get wzwy():AGALRegisterConstant {
 			_components = "wzwy";
-			return this;
+			return clone();
 		}
 
 		public function get wzwz():AGALRegisterConstant {
 			_components = "wzwz";
-			return this;
+			return clone();
 		}
 
 		public function get wzww():AGALRegisterConstant {
 			_components = "wzww";
-			return this;
+			return clone();
 		}
 
 		public function get wwxx():AGALRegisterConstant {
 			_components = "wwxx";
-			return this;
+			return clone();
 		}
 
 		public function get wwxy():AGALRegisterConstant {
 			_components = "wwxy";
-			return this;
+			return clone();
 		}
 
 		public function get wwxz():AGALRegisterConstant {
 			_components = "wwxz";
-			return this;
+			return clone();
 		}
 
 		public function get wwxw():AGALRegisterConstant {
 			_components = "wwxw";
-			return this;
+			return clone();
 		}
 
 		public function get wwyx():AGALRegisterConstant {
 			_components = "wwyx";
-			return this;
+			return clone();
 		}
 
 		public function get wwyy():AGALRegisterConstant {
 			_components = "wwyy";
-			return this;
+			return clone();
 		}
 
 		public function get wwyz():AGALRegisterConstant {
 			_components = "wwyz";
-			return this;
+			return clone();
 		}
 
 		public function get wwyw():AGALRegisterConstant {
 			_components = "wwyw";
-			return this;
+			return clone();
 		}
 
 		public function get wwzx():AGALRegisterConstant {
 			_components = "wwzx";
-			return this;
+			return clone();
 		}
 
 		public function get wwzy():AGALRegisterConstant {
 			_components = "wwzy";
-			return this;
+			return clone();
 		}
 
 		public function get wwzz():AGALRegisterConstant {
 			_components = "wwzz";
-			return this;
+			return clone();
 		}
 
 		public function get wwzw():AGALRegisterConstant {
 			_components = "wwzw";
-			return this;
+			return clone();
 		}
 
 		public function get wwwx():AGALRegisterConstant {
 			_components = "wwwx";
-			return this;
+			return clone();
 		}
 
 		public function get wwwy():AGALRegisterConstant {
 			_components = "wwwy";
-			return this;
+			return clone();
 		}
 
 		public function get wwwz():AGALRegisterConstant {
 			_components = "wwwz";
-			return this;
+			return clone();
 		}
 
 		public function get wwww():AGALRegisterConstant {
 			_components = "wwww";
-			return this;
+			return clone();
 		}
 
 	}

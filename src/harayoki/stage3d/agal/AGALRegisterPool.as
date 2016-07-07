@@ -9,7 +9,7 @@ package harayoki.stage3d.agal {
 	import harayoki.stage3d.agal.i.IAGALRegister;
 	import harayoki.stage3d.agal.registers.*;
 
-	internal class AGALRegisterPool{
+	public class AGALRegisterPool{
 
 		private static var _instance:AGALRegisterPool;
 		public static function getInstance():AGALRegisterPool {
@@ -31,6 +31,9 @@ package harayoki.stage3d.agal {
 			_registers[AGALRegisterVertexAttribute] = new <AGALRegisterVertexAttribute>[];
 			_registers[AGALRegisterVarying] = new <AGALRegisterVarying>[];
 			_registers[AGALRegisterFragmentSampler] = new <AGALRegisterFragmentSampler>[];
+			_registers[AGALRegisterVertexOutput] = new <AGALRegisterVertexOutput>[];
+			_registers[AGALRegisterFragmentOutput] = new <AGALRegisterFragmentOutput>[];
+
 		}
 
 		// レジスタの再利用のため使用済みのレジスタを保持
@@ -58,9 +61,11 @@ package harayoki.stage3d.agal {
 				var v7:Vector.<AGALRegisterFragmentSampler> = _registers[AGALRegisterFragmentSampler];
 				v7.push(AGALRegisterFragmentSampler(register));
 			} else if(register is AGALRegisterVertexOutput) {
-				// 定数なので何もしない
+				var v8:Vector.<AGALRegisterVertexOutput> = _registers[AGALRegisterVertexOutput];
+				v8.push(AGALRegisterVertexOutput(register));
 			} else if(register is AGALRegisterFragmentOutput) {
-				// 定数なので何もしない
+				var v9:Vector.<AGALRegisterFragmentOutput> = _registers[AGALRegisterFragmentOutput];
+				v9.push(AGALRegisterFragmentOutput(register));
 			} else {
 				trace("unknown register : ", register);
 			}
@@ -120,6 +125,20 @@ package harayoki.stage3d.agal {
 			var v:Vector.<AGALRegisterFragmentSampler> = _registers[AGALRegisterFragmentSampler];
 			var r:AGALRegisterFragmentSampler = v.length > 0 ? v.pop() : new AGALRegisterFragmentSampler(index);
 			r.index = index;
+			return r;
+		}
+
+		// op
+		public function getAGALRegisterVertexOutput():AGALRegisterVertexOutput {
+			var v:Vector.<AGALRegisterVertexOutput> = _registers[AGALRegisterVertexOutput];
+			var r:AGALRegisterVertexOutput = v.length > 0 ? v.pop() : new AGALRegisterVertexOutput();
+			return r;
+		}
+
+		// oc
+		public function getAGALRegisterFragmentOutput():AGALRegisterFragmentOutput {
+			var v:Vector.<AGALRegisterFragmentOutput> = _registers[AGALRegisterFragmentOutput];
+			var r:AGALRegisterFragmentOutput = v.length > 0 ? v.pop() : new AGALRegisterFragmentOutput();
 			return r;
 		}
 

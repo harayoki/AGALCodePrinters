@@ -119,9 +119,13 @@ package harayoki.stage3d.agal {
 
 		////////// regs //////////
 
-		public const op:AGALRegisterVertexOutput = new AGALRegisterVertexOutput();
+		public function get op():AGALRegisterVertexOutput {
+			return regPool.getAGALRegisterVertexOutput();
+		}
 
-		public const oc:AGALRegisterFragmentOutput = new AGALRegisterFragmentOutput();
+		public function get oc():AGALRegisterFragmentOutput {
+			return regPool.getAGALRegisterFragmentOutput();
+		}
 
 		public function get v0():AGALRegisterVarying {
 			return regPool.getAGALRegisterVarying(0);
