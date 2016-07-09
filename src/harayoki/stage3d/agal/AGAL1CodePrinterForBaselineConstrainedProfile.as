@@ -138,8 +138,8 @@ package harayoki.stage3d.agal {
 			_addCode("m34", dest, src1, src2);
 		}
 
-		public function kill(dest:IAGALDestinationRegister, src1:IAGALRegister):void {
-			_addCode("kil", dest, src1);
+		public function kill(src1:IAGALRegister):void {
+			_addCode("kil", null, src1);
 		}
 
 		public function setIfGreaterEqual (dest:IAGALDestinationRegister, src1:IAGALRegister, src2:IAGALRegister):void {

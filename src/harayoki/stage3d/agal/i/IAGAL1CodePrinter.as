@@ -191,7 +191,7 @@ package harayoki.stage3d.agal.i {
 		 * (fragment shader only)
 		 * If single scalar source component is less than zero, fragment is discarded and not drawn to the frame buffer. (Destination register must be set to all 0)
 		 */
-		function kill(dest:IAGALDestinationRegister, src1:IAGALRegister):void;
+		function kill(src1:IAGALRegister):void;
 
 		/**
 		 * [sge] 0x29

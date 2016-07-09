@@ -97,8 +97,10 @@ package harayoki.stage3d.agal {
 
 		protected function _addCode(
 			ope:String, dest:IAGALDestinationRegister, src1:IAGALRegister, src2:IAGALRegister=null, flags:String=null):void {
-			var code:String = ope + " "+ dest.getCode() + ", " + src1.getCode();
-			_usedRegisters[dest] = dest;
+			var code:String = ope + " "+ ( dest ? dest.getCode() + ", " : "") + src1.getCode();
+			if(dest) {
+				_usedRegisters[dest] = dest;
+			}
 			_usedRegisters[src1] = src1;
 			if(src2) {
 				code += ", " +src2.getCode();
