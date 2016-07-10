@@ -34,1714 +34,1373 @@ package harayoki.stage3d.agal.registers {
 			return _index;
 		}
 
-		public function clone():AGALRegister {
+		public function clone(components:String=""):AGALRegister {
 			// サブクラスで実装
 			return null;
 		}
 
 		public function get x():AGALRegister {
-			_components = "x";
-			return clone();
+			return clone("x");
 		}
-
+		
 		public function get y():AGALRegister {
-			_components = "y";
-			return clone();
+			return clone("y");
 		}
 
 		public function get z():AGALRegister {
-			_components = "z";
-			return clone();
+			return clone("z");
 		}
 
 		public function get w():AGALRegister {
-			_components = "w";
-			return clone();
+			return clone("w");
 		}
 
 		public function get xx():AGALRegister {
-			_components = "xx";
-			return clone();
+			return clone("xx");
 		}
 
 		public function get xy():AGALRegister {
-			_components = "xy";
-			return clone();
+			return clone("xy");
 		}
 
 		public function get xz():AGALRegister {
-			_components = "xz";
-			return clone();
+			return clone("xz");
 		}
 
 		public function get xw():AGALRegister {
-			_components = "xw";
-			return clone();
+			return clone("xw");
 		}
 
 		public function get yx():AGALRegister {
-			_components = "yx";
-			return clone();
+			return clone("yx");
 		}
 
 		public function get yy():AGALRegister {
-			_components = "yy";
-			return clone();
+			return clone("yy");
 		}
 
 		public function get yz():AGALRegister {
-			_components = "yz";
-			return clone();
+			return clone("yz");
 		}
 
 		public function get yw():AGALRegister {
-			_components = "yw";
-			return clone();
+			return clone("yw");
 		}
 
 		public function get zx():AGALRegister {
-			_components = "zx";
-			return clone();
+			return clone("zx");
 		}
 
 		public function get zy():AGALRegister {
-			_components = "zy";
-			return clone();
+			return clone("zy");
 		}
 
 		public function get zz():AGALRegister {
-			_components = "zz";
-			return clone();
+			return clone("zz");
 		}
 
 		public function get zw():AGALRegister {
-			_components = "zw";
-			return clone();
+			return clone("zw");
 		}
 
 		public function get wx():AGALRegister {
-			_components = "wx";
-			return clone();
+			return clone("wx");
 		}
 
 		public function get wy():AGALRegister {
-			_components = "wy";
-			return clone();
+			return clone("wy");
 		}
 
 		public function get wz():AGALRegister {
-			_components = "wz";
-			return clone();
+			return clone("wz");
 		}
 
 		public function get ww():AGALRegister {
-			_components = "ww";
-			return clone();
+			return clone("ww");
 		}
 
 		public function get xxx():AGALRegister {
-			_components = "xxx";
-			return clone();
+			return clone("xxx");
 		}
 
 		public function get xxy():AGALRegister {
-			_components = "xxy";
-			return clone();
+			return clone("xxy");
 		}
 
 		public function get xxz():AGALRegister {
-			_components = "xxz";
-			return clone();
+			return clone("xxz");
 		}
 
 		public function get xxw():AGALRegister {
-			_components = "xxw";
-			return clone();
+			return clone("xxw");
 		}
 
 		public function get xyx():AGALRegister {
-			_components = "xyx";
-			return clone();
+			return clone("xyx");
 		}
 
 		public function get xyy():AGALRegister {
-			_components = "xyy";
-			return clone();
+			return clone("xyy");
 		}
 
 		public function get xyz():AGALRegister {
-			_components = "xyz";
-			return clone();
+			return clone("xyz");
 		}
 
 		public function get xyw():AGALRegister {
-			_components = "xyw";
-			return clone();
+			return clone("xyw");
 		}
 
 		public function get xzx():AGALRegister {
-			_components = "xzx";
-			return clone();
+			return clone("xzx");
 		}
 
 		public function get xzy():AGALRegister {
-			_components = "xzy";
-			return clone();
+			return clone("xzy");
 		}
 
 		public function get xzz():AGALRegister {
-			_components = "xzz";
-			return clone();
+			return clone("xzz");
 		}
 
 		public function get xzw():AGALRegister {
-			_components = "xzw";
-			return clone();
+			return clone("xzw");
 		}
 
 		public function get xwx():AGALRegister {
-			_components = "xwx";
-			return clone();
+			return clone("xwx");
 		}
 
 		public function get xwy():AGALRegister {
-			_components = "xwy";
-			return clone();
+			return clone("xwy");
 		}
 
 		public function get xwz():AGALRegister {
-			_components = "xwz";
-			return clone();
+			return clone("xwz");
 		}
 
 		public function get xww():AGALRegister {
-			_components = "xww";
-			return clone();
+			return clone("xww");
 		}
 
 		public function get yxx():AGALRegister {
-			_components = "yxx";
-			return clone();
+			return clone("yxx");
 		}
 
 		public function get yxy():AGALRegister {
-			_components = "yxy";
-			return clone();
+			return clone("yxy");
 		}
 
 		public function get yxz():AGALRegister {
-			_components = "yxz";
-			return clone();
+			return clone("yxz");
 		}
 
 		public function get yxw():AGALRegister {
-			_components = "yxw";
-			return clone();
+			return clone("yxw");
 		}
 
 		public function get yyx():AGALRegister {
-			_components = "yyx";
-			return clone();
+			return clone("yyx");
 		}
 
 		public function get yyy():AGALRegister {
-			_components = "yyy";
-			return clone();
+			return clone("yyy");
 		}
 
 		public function get yyz():AGALRegister {
-			_components = "yyz";
-			return clone();
+			return clone("yyz");
 		}
 
 		public function get yyw():AGALRegister {
-			_components = "yyw";
-			return clone();
+			return clone("yyw");
 		}
 
 		public function get yzx():AGALRegister {
-			_components = "yzx";
-			return clone();
+			return clone("yzx");
 		}
 
 		public function get yzy():AGALRegister {
-			_components = "yzy";
-			return clone();
+			return clone("yzy");
 		}
 
 		public function get yzz():AGALRegister {
-			_components = "yzz";
-			return clone();
+			return clone("yzz");
 		}
 
 		public function get yzw():AGALRegister {
-			_components = "yzw";
-			return clone();
+			return clone("yzw");
 		}
 
 		public function get ywx():AGALRegister {
-			_components = "ywx";
-			return clone();
+			return clone("ywx");
 		}
 
 		public function get ywy():AGALRegister {
-			_components = "ywy";
-			return clone();
+			return clone("ywy");
 		}
 
 		public function get ywz():AGALRegister {
-			_components = "ywz";
-			return clone();
+			return clone("ywz");
 		}
 
 		public function get yww():AGALRegister {
-			_components = "yww";
-			return clone();
+			return clone("yww");
 		}
 
 		public function get zxx():AGALRegister {
-			_components = "zxx";
-			return clone();
+			return clone("zxx");
 		}
 
 		public function get zxy():AGALRegister {
-			_components = "zxy";
-			return clone();
+			return clone("zxy");
 		}
 
 		public function get zxz():AGALRegister {
-			_components = "zxz";
-			return clone();
+			return clone("zxz");
 		}
 
 		public function get zxw():AGALRegister {
-			_components = "zxw";
-			return clone();
+			return clone("zxw");
 		}
 
 		public function get zyx():AGALRegister {
-			_components = "zyx";
-			return clone();
+			return clone("zyx");
 		}
 
 		public function get zyy():AGALRegister {
-			_components = "zyy";
-			return clone();
+			return clone("zyy");
 		}
 
 		public function get zyz():AGALRegister {
-			_components = "zyz";
-			return clone();
+			return clone("zyz");
 		}
 
 		public function get zyw():AGALRegister {
-			_components = "zyw";
-			return clone();
+			return clone("zyw");
 		}
 
 		public function get zzx():AGALRegister {
-			_components = "zzx";
-			return clone();
+			return clone("zzx");
 		}
 
 		public function get zzy():AGALRegister {
-			_components = "zzy";
-			return clone();
+			return clone("zzy");
 		}
 
 		public function get zzz():AGALRegister {
-			_components = "zzz";
-			return clone();
+			return clone("zzz");
 		}
 
 		public function get zzw():AGALRegister {
-			_components = "zzw";
-			return clone();
+			return clone("zzw");
 		}
 
 		public function get zwx():AGALRegister {
-			_components = "zwx";
-			return clone();
+			return clone("zwx");
 		}
 
 		public function get zwy():AGALRegister {
-			_components = "zwy";
-			return clone();
+			return clone("zwy");
 		}
 
 		public function get zwz():AGALRegister {
-			_components = "zwz";
-			return clone();
+			return clone("zwz");
 		}
 
 		public function get zww():AGALRegister {
-			_components = "zww";
-			return clone();
+			return clone("zww");
 		}
 
 		public function get wxx():AGALRegister {
-			_components = "wxx";
-			return clone();
+			return clone("wxx");
 		}
 
 		public function get wxy():AGALRegister {
-			_components = "wxy";
-			return clone();
+			return clone("wxy");
 		}
 
 		public function get wxz():AGALRegister {
-			_components = "wxz";
-			return clone();
+			return clone("wxz");
 		}
 
 		public function get wxw():AGALRegister {
-			_components = "wxw";
-			return clone();
+			return clone("wxw");
 		}
 
 		public function get wyx():AGALRegister {
-			_components = "wyx";
-			return clone();
+			return clone("wyx");
 		}
 
 		public function get wyy():AGALRegister {
-			_components = "wyy";
-			return clone();
+			return clone("wyy");
 		}
 
 		public function get wyz():AGALRegister {
-			_components = "wyz";
-			return clone();
+			return clone("wyz");
 		}
 
 		public function get wyw():AGALRegister {
-			_components = "wyw";
-			return clone();
+			return clone("wyw");
 		}
 
 		public function get wzx():AGALRegister {
-			_components = "wzx";
-			return clone();
+			return clone("wzx");
 		}
 
 		public function get wzy():AGALRegister {
-			_components = "wzy";
-			return clone();
+			return clone("wzy");
 		}
 
 		public function get wzz():AGALRegister {
-			_components = "wzz";
-			return clone();
+			return clone("wzz");
 		}
 
 		public function get wzw():AGALRegister {
-			_components = "wzw";
-			return clone();
+			return clone("wzw");
 		}
 
 		public function get wwx():AGALRegister {
-			_components = "wwx";
-			return clone();
+			return clone("wwx");
 		}
 
 		public function get wwy():AGALRegister {
-			_components = "wwy";
-			return clone();
+			return clone("wwy");
 		}
 
 		public function get wwz():AGALRegister {
-			_components = "wwz";
-			return clone();
+			return clone("wwz");
 		}
 
 		public function get www():AGALRegister {
-			_components = "www";
-			return clone();
+			return clone("www");
 		}
 
 		public function get xxxx():AGALRegister {
-			_components = "xxxx";
-			return clone();
+			return clone("xxxx");
 		}
 
 		public function get xxxy():AGALRegister {
-			_components = "xxxy";
-			return clone();
+			return clone("xxxy");
 		}
 
 		public function get xxxz():AGALRegister {
-			_components = "xxxz";
-			return clone();
+			return clone("xxxz");
 		}
 
 		public function get xxxw():AGALRegister {
-			_components = "xxxw";
-			return clone();
+			return clone("xxxw");
 		}
 
 		public function get xxyx():AGALRegister {
-			_components = "xxyx";
-			return clone();
+			return clone("xxyx");
 		}
 
 		public function get xxyy():AGALRegister {
-			_components = "xxyy";
-			return clone();
+			return clone("xxyy");
 		}
 
 		public function get xxyz():AGALRegister {
-			_components = "xxyz";
-			return clone();
+			return clone("xxyz");
 		}
 
 		public function get xxyw():AGALRegister {
-			_components = "xxyw";
-			return clone();
+			return clone("xxyw");
 		}
 
 		public function get xxzx():AGALRegister {
-			_components = "xxzx";
-			return clone();
+			return clone("xxzx");
 		}
 
 		public function get xxzy():AGALRegister {
-			_components = "xxzy";
-			return clone();
+			return clone("xxzy");
 		}
 
 		public function get xxzz():AGALRegister {
-			_components = "xxzz";
-			return clone();
+			return clone("xxzz");
 		}
 
 		public function get xxzw():AGALRegister {
-			_components = "xxzw";
-			return clone();
+			return clone("xxzw");
 		}
 
 		public function get xxwx():AGALRegister {
-			_components = "xxwx";
-			return clone();
+			return clone("xxwx");
 		}
 
 		public function get xxwy():AGALRegister {
-			_components = "xxwy";
-			return clone();
+			return clone("xxwy");
 		}
 
 		public function get xxwz():AGALRegister {
-			_components = "xxwz";
-			return clone();
+			return clone("xxwz");
 		}
 
 		public function get xxww():AGALRegister {
-			_components = "xxww";
-			return clone();
+			return clone("xxww");
 		}
 
 		public function get xyxx():AGALRegister {
-			_components = "xyxx";
-			return clone();
+			return clone("xyxx");
 		}
 
 		public function get xyxy():AGALRegister {
-			_components = "xyxy";
-			return clone();
+			return clone("xyxy");
 		}
 
 		public function get xyxz():AGALRegister {
-			_components = "xyxz";
-			return clone();
+			return clone("xyxz");
 		}
 
 		public function get xyxw():AGALRegister {
-			_components = "xyxw";
-			return clone();
+			return clone("xyxw");
 		}
 
 		public function get xyyx():AGALRegister {
-			_components = "xyyx";
-			return clone();
+			return clone("xyyx");
 		}
 
 		public function get xyyy():AGALRegister {
-			_components = "xyyy";
-			return clone();
+			return clone("xyyy");
 		}
 
 		public function get xyyz():AGALRegister {
-			_components = "xyyz";
-			return clone();
+			return clone("xyyz");
 		}
 
 		public function get xyyw():AGALRegister {
-			_components = "xyyw";
-			return clone();
+			return clone("xyyw");
 		}
 
 		public function get xyzx():AGALRegister {
-			_components = "xyzx";
-			return clone();
+			return clone("xyzx");
 		}
 
 		public function get xyzy():AGALRegister {
-			_components = "xyzy";
-			return clone();
+			return clone("xyzy");
 		}
 
 		public function get xyzz():AGALRegister {
-			_components = "xyzz";
-			return clone();
+			return clone("xyzz");
 		}
 
 		public function get xyzw():AGALRegister {
-			_components = "xyzw";
-			return clone();
+			return clone("xyzw");
 		}
 
 		public function get xywx():AGALRegister {
-			_components = "xywx";
-			return clone();
+			return clone("xywx");
 		}
 
 		public function get xywy():AGALRegister {
-			_components = "xywy";
-			return clone();
+			return clone("xywy");
 		}
 
 		public function get xywz():AGALRegister {
-			_components = "xywz";
-			return clone();
+			return clone("xywz");
 		}
 
 		public function get xyww():AGALRegister {
-			_components = "xyww";
-			return clone();
+			return clone("xyww");
 		}
 
 		public function get xzxx():AGALRegister {
-			_components = "xzxx";
-			return clone();
+			return clone("xzxx");
 		}
 
 		public function get xzxy():AGALRegister {
-			_components = "xzxy";
-			return clone();
+			return clone("xzxy");
 		}
 
 		public function get xzxz():AGALRegister {
-			_components = "xzxz";
-			return clone();
+			return clone("xzxz");
 		}
 
 		public function get xzxw():AGALRegister {
-			_components = "xzxw";
-			return clone();
+			return clone("xzxw");
 		}
 
 		public function get xzyx():AGALRegister {
-			_components = "xzyx";
-			return clone();
+			return clone("xzyx");
 		}
 
 		public function get xzyy():AGALRegister {
-			_components = "xzyy";
-			return clone();
+			return clone("xzyy");
 		}
 
 		public function get xzyz():AGALRegister {
-			_components = "xzyz";
-			return clone();
+			return clone("xzyz");
 		}
 
 		public function get xzyw():AGALRegister {
-			_components = "xzyw";
-			return clone();
+			return clone("xzyw");
 		}
 
 		public function get xzzx():AGALRegister {
-			_components = "xzzx";
-			return clone();
+			return clone("xzzx");
 		}
 
 		public function get xzzy():AGALRegister {
-			_components = "xzzy";
-			return clone();
+			return clone("xzzy");
 		}
 
 		public function get xzzz():AGALRegister {
-			_components = "xzzz";
-			return clone();
+			return clone("xzzz");
 		}
 
 		public function get xzzw():AGALRegister {
-			_components = "xzzw";
-			return clone();
+			return clone("xzzw");
 		}
 
 		public function get xzwx():AGALRegister {
-			_components = "xzwx";
-			return clone();
+			return clone("xzwx");
 		}
 
 		public function get xzwy():AGALRegister {
-			_components = "xzwy";
-			return clone();
+			return clone("xzwy");
 		}
 
 		public function get xzwz():AGALRegister {
-			_components = "xzwz";
-			return clone();
+			return clone("xzwz");
 		}
 
 		public function get xzww():AGALRegister {
-			_components = "xzww";
-			return clone();
+			return clone("xzww");
 		}
 
 		public function get xwxx():AGALRegister {
-			_components = "xwxx";
-			return clone();
+			return clone("xwxx");
 		}
 
 		public function get xwxy():AGALRegister {
-			_components = "xwxy";
-			return clone();
+			return clone("xwxy");
 		}
 
 		public function get xwxz():AGALRegister {
-			_components = "xwxz";
-			return clone();
+			return clone("xwxz");
 		}
 
 		public function get xwxw():AGALRegister {
-			_components = "xwxw";
-			return clone();
+			return clone("xwxw");
 		}
 
 		public function get xwyx():AGALRegister {
-			_components = "xwyx";
-			return clone();
+			return clone("xwyx");
 		}
 
 		public function get xwyy():AGALRegister {
-			_components = "xwyy";
-			return clone();
+			return clone("xwyy");
 		}
 
 		public function get xwyz():AGALRegister {
-			_components = "xwyz";
-			return clone();
+			return clone("xwyz");
 		}
 
 		public function get xwyw():AGALRegister {
-			_components = "xwyw";
-			return clone();
+			return clone("xwyw");
 		}
 
 		public function get xwzx():AGALRegister {
-			_components = "xwzx";
-			return clone();
+			return clone("xwzx");
 		}
 
 		public function get xwzy():AGALRegister {
-			_components = "xwzy";
-			return clone();
+			return clone("xwzy");
 		}
 
 		public function get xwzz():AGALRegister {
-			_components = "xwzz";
-			return clone();
+			return clone("xwzz");
 		}
 
 		public function get xwzw():AGALRegister {
-			_components = "xwzw";
-			return clone();
+			return clone("xwzw");
 		}
 
 		public function get xwwx():AGALRegister {
-			_components = "xwwx";
-			return clone();
+			return clone("xwwx");
 		}
 
 		public function get xwwy():AGALRegister {
-			_components = "xwwy";
-			return clone();
+			return clone("xwwy");
 		}
 
 		public function get xwwz():AGALRegister {
-			_components = "xwwz";
-			return clone();
+			return clone("xwwz");
 		}
 
 		public function get xwww():AGALRegister {
-			_components = "xwww";
-			return clone();
+			return clone("xwww");
 		}
 
 		public function get ():AGALRegister {
-			_components = "";
-			return clone();
+			_components = "";return clone("");
 		}
 
 		public function get yxxx():AGALRegister {
-			_components = "yxxx";
-			return clone();
+			return clone("yxxx");
 		}
 
 		public function get yxxy():AGALRegister {
-			_components = "yxxy";
-			return clone();
+			return clone("yxxy");
 		}
 
 		public function get yxxz():AGALRegister {
-			_components = "yxxz";
-			return clone();
+			return clone("yxxz");
 		}
 
 		public function get yxxw():AGALRegister {
-			_components = "yxxw";
-			return clone();
+			return clone("yxxw");
 		}
 
 		public function get yxyx():AGALRegister {
-			_components = "yxyx";
-			return clone();
+			return clone("yxyx");
 		}
 
 		public function get yxyy():AGALRegister {
-			_components = "yxyy";
-			return clone();
+			return clone("yxyy");
 		}
 
 		public function get yxyz():AGALRegister {
-			_components = "yxyz";
-			return clone();
+			return clone("yxyz");
 		}
 
 		public function get yxyw():AGALRegister {
-			_components = "yxyw";
-			return clone();
+			return clone("yxyw");
 		}
 
 		public function get yxzx():AGALRegister {
-			_components = "yxzx";
-			return clone();
+			return clone("yxzx");
 		}
 
 		public function get yxzy():AGALRegister {
-			_components = "yxzy";
-			return clone();
+			return clone("yxzy");
 		}
 
 		public function get yxzz():AGALRegister {
-			_components = "yxzz";
-			return clone();
+			return clone("yxzz");
 		}
 
 		public function get yxzw():AGALRegister {
-			_components = "yxzw";
-			return clone();
+			return clone("yxzw");
 		}
 
 		public function get yxwx():AGALRegister {
-			_components = "yxwx";
-			return clone();
+			return clone("yxwx");
 		}
 
 		public function get yxwy():AGALRegister {
-			_components = "yxwy";
-			return clone();
+			return clone("yxwy");
 		}
 
 		public function get yxwz():AGALRegister {
-			_components = "yxwz";
-			return clone();
+			return clone("yxwz");
 		}
 
 		public function get yxww():AGALRegister {
-			_components = "yxww";
-			return clone();
+			return clone("yxww");
 		}
 
 		public function get yyxx():AGALRegister {
-			_components = "yyxx";
-			return clone();
+			return clone("yyxx");
 		}
 
 		public function get yyxy():AGALRegister {
-			_components = "yyxy";
-			return clone();
+			return clone("yyxy");
 		}
 
 		public function get yyxz():AGALRegister {
-			_components = "yyxz";
-			return clone();
+			return clone("yyxz");
 		}
 
 		public function get yyxw():AGALRegister {
-			_components = "yyxw";
-			return clone();
+			return clone("yyxw");
 		}
 
 		public function get yyyx():AGALRegister {
-			_components = "yyyx";
-			return clone();
+			return clone("yyyx");
 		}
 
 		public function get yyyy():AGALRegister {
-			_components = "yyyy";
-			return clone();
+			return clone("yyyy");
 		}
 
 		public function get yyyz():AGALRegister {
-			_components = "yyyz";
-			return clone();
+			return clone("yyyz");
 		}
 
 		public function get yyyw():AGALRegister {
-			_components = "yyyw";
-			return clone();
+			return clone("yyyw");
 		}
 
 		public function get yyzx():AGALRegister {
-			_components = "yyzx";
-			return clone();
+			return clone("yyzx");
 		}
 
 		public function get yyzy():AGALRegister {
-			_components = "yyzy";
-			return clone();
+			return clone("yyzy");
 		}
 
 		public function get yyzz():AGALRegister {
-			_components = "yyzz";
-			return clone();
+			return clone("yyzz");
 		}
 
 		public function get yyzw():AGALRegister {
-			_components = "yyzw";
-			return clone();
+			return clone("yyzw");
 		}
 
 		public function get yywx():AGALRegister {
-			_components = "yywx";
-			return clone();
+			return clone("yywx");
 		}
 
 		public function get yywy():AGALRegister {
-			_components = "yywy";
-			return clone();
+			return clone("yywy");
 		}
 
 		public function get yywz():AGALRegister {
-			_components = "yywz";
-			return clone();
+			return clone("yywz");
 		}
 
 		public function get yyww():AGALRegister {
-			_components = "yyww";
-			return clone();
+			return clone("yyww");
 		}
 
 		public function get yzxx():AGALRegister {
-			_components = "yzxx";
-			return clone();
+			return clone("yzxx");
 		}
 
 		public function get yzxy():AGALRegister {
-			_components = "yzxy";
-			return clone();
+			return clone("yzxy");
 		}
 
 		public function get yzxz():AGALRegister {
-			_components = "yzxz";
-			return clone();
+			return clone("yzxz");
 		}
 
 		public function get yzxw():AGALRegister {
-			_components = "yzxw";
-			return clone();
+			return clone("yzxw");
 		}
 
 		public function get yzyx():AGALRegister {
-			_components = "yzyx";
-			return clone();
+			return clone("yzyx");
 		}
 
 		public function get yzyy():AGALRegister {
-			_components = "yzyy";
-			return clone();
+			return clone("yzyy");
 		}
 
 		public function get yzyz():AGALRegister {
-			_components = "yzyz";
-			return clone();
+			return clone("yzyz");
 		}
 
 		public function get yzyw():AGALRegister {
-			_components = "yzyw";
-			return clone();
+			return clone("yzyw");
 		}
 
 		public function get yzzx():AGALRegister {
-			_components = "yzzx";
-			return clone();
+			return clone("yzzx");
 		}
 
 		public function get yzzy():AGALRegister {
-			_components = "yzzy";
-			return clone();
+			return clone("yzzy");
 		}
 
 		public function get yzzz():AGALRegister {
-			_components = "yzzz";
-			return clone();
+			return clone("yzzz");
 		}
 
 		public function get yzzw():AGALRegister {
-			_components = "yzzw";
-			return clone();
+			return clone("yzzw");
 		}
 
 		public function get yzwx():AGALRegister {
-			_components = "yzwx";
-			return clone();
+			return clone("yzwx");
 		}
 
 		public function get yzwy():AGALRegister {
-			_components = "yzwy";
-			return clone();
+			return clone("yzwy");
 		}
 
 		public function get yzwz():AGALRegister {
-			_components = "yzwz";
-			return clone();
+			return clone("yzwz");
 		}
 
 		public function get yzww():AGALRegister {
-			_components = "yzww";
-			return clone();
+			return clone("yzww");
 		}
 
 		public function get ywxx():AGALRegister {
-			_components = "ywxx";
-			return clone();
+			return clone("ywxx");
 		}
 
 		public function get ywxy():AGALRegister {
-			_components = "ywxy";
-			return clone();
+			return clone("ywxy");
 		}
 
 		public function get ywxz():AGALRegister {
-			_components = "ywxz";
-			return clone();
+			return clone("ywxz");
 		}
 
 		public function get ywxw():AGALRegister {
-			_components = "ywxw";
-			return clone();
+			return clone("ywxw");
 		}
 
 		public function get ywyx():AGALRegister {
-			_components = "ywyx";
-			return clone();
+			return clone("ywyx");
 		}
 
 		public function get ywyy():AGALRegister {
-			_components = "ywyy";
-			return clone();
+			return clone("ywyy");
 		}
 
 		public function get ywyz():AGALRegister {
-			_components = "ywyz";
-			return clone();
+			return clone("ywyz");
 		}
 
 		public function get ywyw():AGALRegister {
-			_components = "ywyw";
-			return clone();
+			return clone("ywyw");
 		}
 
 		public function get ywzx():AGALRegister {
-			_components = "ywzx";
-			return clone();
+			return clone("ywzx");
 		}
 
 		public function get ywzy():AGALRegister {
-			_components = "ywzy";
-			return clone();
+			return clone("ywzy");
 		}
 
 		public function get ywzz():AGALRegister {
-			_components = "ywzz";
-			return clone();
+			return clone("ywzz");
 		}
 
 		public function get ywzw():AGALRegister {
-			_components = "ywzw";
-			return clone();
+			return clone("ywzw");
 		}
 
 		public function get ywwx():AGALRegister {
-			_components = "ywwx";
-			return clone();
+			return clone("ywwx");
 		}
 
 		public function get ywwy():AGALRegister {
-			_components = "ywwy";
-			return clone();
+			return clone("ywwy");
 		}
 
 		public function get ywwz():AGALRegister {
-			_components = "ywwz";
-			return clone();
+			return clone("ywwz");
 		}
 
 		public function get ywww():AGALRegister {
-			_components = "ywww";
-			return clone();
+			return clone("ywww");
 		}
 
 		public function get zxxx():AGALRegister {
-			_components = "zxxx";
-			return clone();
+			return clone("zxxx");
 		}
 
 		public function get zxxy():AGALRegister {
-			_components = "zxxy";
-			return clone();
+			return clone("zxxy");
 		}
 
 		public function get zxxz():AGALRegister {
-			_components = "zxxz";
-			return clone();
+			return clone("zxxz");
 		}
 
 		public function get zxxw():AGALRegister {
-			_components = "zxxw";
-			return clone();
+			return clone("zxxw");
 		}
 
 		public function get zxyx():AGALRegister {
-			_components = "zxyx";
-			return clone();
+			return clone("zxyx");
 		}
 
 		public function get zxyy():AGALRegister {
-			_components = "zxyy";
-			return clone();
+			return clone("zxyy");
 		}
 
 		public function get zxyz():AGALRegister {
-			_components = "zxyz";
-			return clone();
+			return clone("zxyz");
 		}
 
 		public function get zxyw():AGALRegister {
-			_components = "zxyw";
-			return clone();
+			return clone("zxyw");
 		}
 
 		public function get zxzx():AGALRegister {
-			_components = "zxzx";
-			return clone();
+			return clone("zxzx");
 		}
 
 		public function get zxzy():AGALRegister {
-			_components = "zxzy";
-			return clone();
+			return clone("zxzy");
 		}
 
 		public function get zxzz():AGALRegister {
-			_components = "zxzz";
-			return clone();
+			return clone("zxzz");
 		}
 
 		public function get zxzw():AGALRegister {
-			_components = "zxzw";
-			return clone();
+			return clone("zxzw");
 		}
 
 		public function get zxwx():AGALRegister {
-			_components = "zxwx";
-			return clone();
+			return clone("zxwx");
 		}
 
 		public function get zxwy():AGALRegister {
-			_components = "zxwy";
-			return clone();
+			return clone("zxwy");
 		}
 
 		public function get zxwz():AGALRegister {
-			_components = "zxwz";
-			return clone();
+			return clone("zxwz");
 		}
 
 		public function get zxww():AGALRegister {
-			_components = "zxww";
-			return clone();
+			return clone("zxww");
 		}
 
 		public function get zyxx():AGALRegister {
-			_components = "zyxx";
-			return clone();
+			return clone("zyxx");
 		}
 
 		public function get zyxy():AGALRegister {
-			_components = "zyxy";
-			return clone();
+			return clone("zyxy");
 		}
 
 		public function get zyxz():AGALRegister {
-			_components = "zyxz";
-			return clone();
+			return clone("zyxz");
 		}
 
 		public function get zyxw():AGALRegister {
-			_components = "zyxw";
-			return clone();
+			return clone("zyxw");
 		}
 
 		public function get zyyx():AGALRegister {
-			_components = "zyyx";
-			return clone();
+			return clone("zyyx");
 		}
 
 		public function get zyyy():AGALRegister {
-			_components = "zyyy";
-			return clone();
+			return clone("zyyy");
 		}
 
 		public function get zyyz():AGALRegister {
-			_components = "zyyz";
-			return clone();
+			return clone("zyyz");
 		}
 
 		public function get zyyw():AGALRegister {
-			_components = "zyyw";
-			return clone();
+			return clone("zyyw");
 		}
 
 		public function get zyzx():AGALRegister {
-			_components = "zyzx";
-			return clone();
+			return clone("zyzx");
 		}
 
 		public function get zyzy():AGALRegister {
-			_components = "zyzy";
-			return clone();
+			return clone("zyzy");
 		}
 
 		public function get zyzz():AGALRegister {
-			_components = "zyzz";
-			return clone();
+			return clone("zyzz");
 		}
 
 		public function get zyzw():AGALRegister {
-			_components = "zyzw";
-			return clone();
+			return clone("zyzw");
 		}
 
 		public function get zywx():AGALRegister {
-			_components = "zywx";
-			return clone();
+			return clone("zywx");
 		}
 
 		public function get zywy():AGALRegister {
-			_components = "zywy";
-			return clone();
+			return clone("zywy");
 		}
 
 		public function get zywz():AGALRegister {
-			_components = "zywz";
-			return clone();
+			return clone("zywz");
 		}
 
 		public function get zyww():AGALRegister {
-			_components = "zyww";
-			return clone();
+			return clone("zyww");
 		}
 
 		public function get zzxx():AGALRegister {
-			_components = "zzxx";
-			return clone();
+			return clone("zzxx");
 		}
 
 		public function get zzxy():AGALRegister {
-			_components = "zzxy";
-			return clone();
+			return clone("zzxy");
 		}
 
 		public function get zzxz():AGALRegister {
-			_components = "zzxz";
-			return clone();
+			return clone("zzxz");
 		}
 
 		public function get zzxw():AGALRegister {
-			_components = "zzxw";
-			return clone();
+			return clone("zzxw");
 		}
 
 		public function get zzyx():AGALRegister {
-			_components = "zzyx";
-			return clone();
+			return clone("zzyx");
 		}
 
 		public function get zzyy():AGALRegister {
-			_components = "zzyy";
-			return clone();
+			return clone("zzyy");
 		}
 
 		public function get zzyz():AGALRegister {
-			_components = "zzyz";
-			return clone();
+			return clone("zzyz");
 		}
 
 		public function get zzyw():AGALRegister {
-			_components = "zzyw";
-			return clone();
+			return clone("zzyw");
 		}
 
 		public function get zzzx():AGALRegister {
-			_components = "zzzx";
-			return clone();
+			return clone("zzzx");
 		}
 
 		public function get zzzy():AGALRegister {
-			_components = "zzzy";
-			return clone();
+			return clone("zzzy");
 		}
 
 		public function get zzzz():AGALRegister {
-			_components = "zzzz";
-			return clone();
+			return clone("zzzz");
 		}
 
 		public function get zzzw():AGALRegister {
-			_components = "zzzw";
-			return clone();
+			return clone("zzzw");
 		}
 
 		public function get zzwx():AGALRegister {
-			_components = "zzwx";
-			return clone();
+			return clone("zzwx");
 		}
 
 		public function get zzwy():AGALRegister {
-			_components = "zzwy";
-			return clone();
+			return clone("zzwy");
 		}
 
 		public function get zzwz():AGALRegister {
-			_components = "zzwz";
-			return clone();
+			return clone("zzwz");
 		}
 
 		public function get zzww():AGALRegister {
-			_components = "zzww";
-			return clone();
+			return clone("zzww");
 		}
 
 		public function get zwxx():AGALRegister {
-			_components = "zwxx";
-			return clone();
+			return clone("zwxx");
 		}
 
 		public function get zwxy():AGALRegister {
-			_components = "zwxy";
-			return clone();
+			return clone("zwxy");
 		}
 
 		public function get zwxz():AGALRegister {
-			_components = "zwxz";
-			return clone();
+			return clone("zwxz");
 		}
 
 		public function get zwxw():AGALRegister {
-			_components = "zwxw";
-			return clone();
+			return clone("zwxw");
 		}
 
 		public function get zwyx():AGALRegister {
-			_components = "zwyx";
-			return clone();
+			return clone("zwyx");
 		}
 
 		public function get zwyy():AGALRegister {
-			_components = "zwyy";
-			return clone();
+			return clone("zwyy");
 		}
 
 		public function get zwyz():AGALRegister {
-			_components = "zwyz";
-			return clone();
+			return clone("zwyz");
 		}
 
 		public function get zwyw():AGALRegister {
-			_components = "zwyw";
-			return clone();
+			return clone("zwyw");
 		}
 
 		public function get zwzx():AGALRegister {
-			_components = "zwzx";
-			return clone();
+			return clone("zwzx");
 		}
 
 		public function get zwzy():AGALRegister {
-			_components = "zwzy";
-			return clone();
+			return clone("zwzy");
 		}
 
 		public function get zwzz():AGALRegister {
-			_components = "zwzz";
-			return clone();
+			return clone("zwzz");
 		}
 
 		public function get zwzw():AGALRegister {
-			_components = "zwzw";
-			return clone();
+			return clone("zwzw");
 		}
 
 		public function get zwwx():AGALRegister {
-			_components = "zwwx";
-			return clone();
+			return clone("zwwx");
 		}
 
 		public function get zwwy():AGALRegister {
-			_components = "zwwy";
-			return clone();
+			return clone("zwwy");
 		}
 
 		public function get zwwz():AGALRegister {
-			_components = "zwwz";
-			return clone();
+			return clone("zwwz");
 		}
 
 		public function get zwww():AGALRegister {
-			_components = "zwww";
-			return clone();
+			return clone("zwww");
 		}
 
 		public function get wxxx():AGALRegister {
-			_components = "wxxx";
-			return clone();
+			return clone("wxxx");
 		}
 
 		public function get wxxy():AGALRegister {
-			_components = "wxxy";
-			return clone();
+			return clone("wxxy");
 		}
 
 		public function get wxxz():AGALRegister {
-			_components = "wxxz";
-			return clone();
+			return clone("wxxz");
 		}
 
 		public function get wxxw():AGALRegister {
-			_components = "wxxw";
-			return clone();
+			return clone("wxxw");
 		}
 
 		public function get wxyx():AGALRegister {
-			_components = "wxyx";
-			return clone();
+			return clone("wxyx");
 		}
 
 		public function get wxyy():AGALRegister {
-			_components = "wxyy";
-			return clone();
+			return clone("wxyy");
 		}
 
 		public function get wxyz():AGALRegister {
-			_components = "wxyz";
-			return clone();
+			return clone("wxyz");
 		}
 
 		public function get wxyw():AGALRegister {
-			_components = "wxyw";
-			return clone();
+			return clone("wxyw");
 		}
 
 		public function get wxzx():AGALRegister {
-			_components = "wxzx";
-			return clone();
+			return clone("wxzx");
 		}
 
 		public function get wxzy():AGALRegister {
-			_components = "wxzy";
-			return clone();
+			return clone("wxzy");
 		}
 
 		public function get wxzz():AGALRegister {
-			_components = "wxzz";
-			return clone();
+			return clone("wxzz");
 		}
 
 		public function get wxzw():AGALRegister {
-			_components = "wxzw";
-			return clone();
+			return clone("wxzw");
 		}
 
 		public function get wxwx():AGALRegister {
-			_components = "wxwx";
-			return clone();
+			return clone("wxwx");
 		}
 
 		public function get wxwy():AGALRegister {
-			_components = "wxwy";
-			return clone();
+			return clone("wxwy");
 		}
 
 		public function get wxwz():AGALRegister {
-			_components = "wxwz";
-			return clone();
+			return clone("wxwz");
 		}
 
 		public function get wxww():AGALRegister {
-			_components = "wxww";
-			return clone();
+			return clone("wxww");
 		}
 
 		public function get wyxx():AGALRegister {
-			_components = "wyxx";
-			return clone();
+			return clone("wyxx");
 		}
 
 		public function get wyxy():AGALRegister {
-			_components = "wyxy";
-			return clone();
+			return clone("wyxy");
 		}
 
 		public function get wyxz():AGALRegister {
-			_components = "wyxz";
-			return clone();
+			return clone("wyxz");
 		}
 
 		public function get wyxw():AGALRegister {
-			_components = "wyxw";
-			return clone();
+			return clone("wyxw");
 		}
 
 		public function get wyyx():AGALRegister {
-			_components = "wyyx";
-			return clone();
+			return clone("wyyx");
 		}
 
 		public function get wyyy():AGALRegister {
-			_components = "wyyy";
-			return clone();
+			return clone("wyyy");
 		}
 
 		public function get wyyz():AGALRegister {
-			_components = "wyyz";
-			return clone();
+			return clone("wyyz");
 		}
 
 		public function get wyyw():AGALRegister {
-			_components = "wyyw";
-			return clone();
+			return clone("wyyw");
 		}
 
 		public function get wyzx():AGALRegister {
-			_components = "wyzx";
-			return clone();
+			return clone("wyzx");
 		}
 
 		public function get wyzy():AGALRegister {
-			_components = "wyzy";
-			return clone();
+			return clone("wyzy");
 		}
 
 		public function get wyzz():AGALRegister {
-			_components = "wyzz";
-			return clone();
+			return clone("wyzz");
 		}
 
 		public function get wyzw():AGALRegister {
-			_components = "wyzw";
-			return clone();
+			return clone("wyzw");
 		}
 
 		public function get wywx():AGALRegister {
-			_components = "wywx";
-			return clone();
+			return clone("wywx");
 		}
 
 		public function get wywy():AGALRegister {
-			_components = "wywy";
-			return clone();
+			return clone("wywy");
 		}
 
 		public function get wywz():AGALRegister {
-			_components = "wywz";
-			return clone();
+			return clone("wywz");
 		}
 
 		public function get wyww():AGALRegister {
-			_components = "wyww";
-			return clone();
+			return clone("wyww");
 		}
 
 		public function get wzxx():AGALRegister {
-			_components = "wzxx";
-			return clone();
+			return clone("wzxx");
 		}
 
 		public function get wzxy():AGALRegister {
-			_components = "wzxy";
-			return clone();
+			return clone("wzxy");
 		}
 
 		public function get wzxz():AGALRegister {
-			_components = "wzxz";
-			return clone();
+			return clone("wzxz");
 		}
 
 		public function get wzxw():AGALRegister {
-			_components = "wzxw";
-			return clone();
+			return clone("wzxw");
 		}
 
 		public function get wzyx():AGALRegister {
-			_components = "wzyx";
-			return clone();
+			return clone("wzyx");
 		}
 
 		public function get wzyy():AGALRegister {
-			_components = "wzyy";
-			return clone();
+			return clone("wzyy");
 		}
 
 		public function get wzyz():AGALRegister {
-			_components = "wzyz";
-			return clone();
+			return clone("wzyz");
 		}
 
 		public function get wzyw():AGALRegister {
-			_components = "wzyw";
-			return clone();
+			return clone("wzyw");
 		}
 
 		public function get wzzx():AGALRegister {
-			_components = "wzzx";
-			return clone();
+			return clone("wzzx");
 		}
 
 		public function get wzzy():AGALRegister {
-			_components = "wzzy";
-			return clone();
+			return clone("wzzy");
 		}
 
 		public function get wzzz():AGALRegister {
-			_components = "wzzz";
-			return clone();
+			return clone("wzzz");
 		}
 
 		public function get wzzw():AGALRegister {
-			_components = "wzzw";
-			return clone();
+			return clone("wzzw");
 		}
 
 		public function get wzwx():AGALRegister {
-			_components = "wzwx";
-			return clone();
+			return clone("wzwx");
 		}
 
 		public function get wzwy():AGALRegister {
-			_components = "wzwy";
-			return clone();
+			return clone("wzwy");
 		}
 
 		public function get wzwz():AGALRegister {
-			_components = "wzwz";
-			return clone();
+			return clone("wzwz");
 		}
 
 		public function get wzww():AGALRegister {
-			_components = "wzww";
-			return clone();
+			return clone("wzww");
 		}
 
 		public function get wwxx():AGALRegister {
-			_components = "wwxx";
-			return clone();
+			return clone("wwxx");
 		}
 
 		public function get wwxy():AGALRegister {
-			_components = "wwxy";
-			return clone();
+			return clone("wwxy");
 		}
 
 		public function get wwxz():AGALRegister {
-			_components = "wwxz";
-			return clone();
+			return clone("wwxz");
 		}
 
 		public function get wwxw():AGALRegister {
-			_components = "wwxw";
-			return clone();
+			return clone("wwxw");
 		}
 
 		public function get wwyx():AGALRegister {
-			_components = "wwyx";
-			return clone();
+			return clone("wwyx");
 		}
 
 		public function get wwyy():AGALRegister {
-			_components = "wwyy";
-			return clone();
+			return clone("wwyy");
 		}
 
 		public function get wwyz():AGALRegister {
-			_components = "wwyz";
-			return clone();
+			return clone("wwyz");
 		}
 
 		public function get wwyw():AGALRegister {
-			_components = "wwyw";
-			return clone();
+			return clone("wwyw");
 		}
 
 		public function get wwzx():AGALRegister {
-			_components = "wwzx";
-			return clone();
+			return clone("wwzx");
 		}
 
 		public function get wwzy():AGALRegister {
-			_components = "wwzy";
-			return clone();
+			return clone("wwzy");
 		}
 
 		public function get wwzz():AGALRegister {
-			_components = "wwzz";
-			return clone();
+			return clone("wwzz");
 		}
 
 		public function get wwzw():AGALRegister {
-			_components = "wwzw";
-			return clone();
+			return clone("wwzw");
 		}
 
 		public function get wwwx():AGALRegister {
-			_components = "wwwx";
-			return clone();
+			return clone("wwwx");
 		}
 
 		public function get wwwy():AGALRegister {
-			_components = "wwwy";
-			return clone();
+			return clone("wwwy");
 		}
 
 		public function get wwwz():AGALRegister {
-			_components = "wwwz";
-			return clone();
+			return clone("wwwz");
 		}
 
 		public function get wwww():AGALRegister {
-			_components = "wwww";
-			return clone();
+			return clone("wwww");
 		}
 		
 	}

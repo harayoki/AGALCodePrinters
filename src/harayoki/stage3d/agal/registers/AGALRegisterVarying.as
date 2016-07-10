@@ -10,9 +10,9 @@ package harayoki.stage3d.agal.registers {
 			super("v", index);
 		}
 
-		public override function clone():AGALRegister {
+		public override function clone(components:String=""):AGALRegister {
 			var reg:AGALRegisterVarying = new AGALRegisterVarying(_index);
-			reg._components = _components;
+			reg._components = components;
 			return reg;
 		}
 

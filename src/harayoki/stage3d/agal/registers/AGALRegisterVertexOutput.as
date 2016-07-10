@@ -12,9 +12,9 @@ package harayoki.stage3d.agal.registers {
 			super("op");
 		}
 
-		public override function clone():AGALRegisterOutput {
+		public override function clone(components:String=""):AGALRegisterOutput {
 			var reg:AGALRegisterVertexOutput = AGALRegisterPool.getInstance().getAGALRegisterVertexOutput();
-			reg._components = _components;
+			reg._components = components;
 			return reg;
 		}
 

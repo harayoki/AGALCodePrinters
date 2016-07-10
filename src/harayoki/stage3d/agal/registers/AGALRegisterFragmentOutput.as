@@ -11,9 +11,9 @@ package harayoki.stage3d.agal.registers {
 		public function AGALRegisterFragmentOutput() {
 			super("oc");
 		}
-		public override function clone():AGALRegisterOutput {
+		public override function clone(components:String=""):AGALRegisterOutput {
 			var reg:AGALRegisterFragmentOutput = AGALRegisterPool.getInstance().getAGALRegisterFragmentOutput();
-			reg._components = _components;
+			reg._components = components;
 			return reg;
 		}
 	}

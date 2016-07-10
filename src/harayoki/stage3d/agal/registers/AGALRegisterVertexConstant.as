@@ -11,9 +11,9 @@ package harayoki.stage3d.agal.registers {
 			super("vc", index);
 		}
 
-		public override function clone():AGALRegisterConstant {
+		public override function clone(components:String=""):AGALRegisterConstant {
 			var reg:AGALRegisterVertexConstant = AGALRegisterPool.getInstance().getAGALRegisterVertexConstant(_index);
-			reg._components = _components;
+			reg._components = components;
 			return reg;
 		}
 

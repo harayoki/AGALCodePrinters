@@ -34,1714 +34,1373 @@ package harayoki.stage3d.agal.registers {
 			return _index;
 		}
 
-		public function clone():AGALRegisterConstant {
+		public function clone(components:String=""):AGALRegisterConstant {
 			// サブクラスで実装
 			return null;
 		}
 
 		public function get x():AGALRegisterConstant {
-			_components = "x";
-			return clone();
+			return clone("x");
 		}
-
+		
 		public function get y():AGALRegisterConstant {
-			_components = "y";
-			return clone();
+			return clone("y");
 		}
-
+		
 		public function get z():AGALRegisterConstant {
-			_components = "z";
-			return clone();
+			return clone("z");
 		}
-
+		
 		public function get w():AGALRegisterConstant {
-			_components = "w";
-			return clone();
+			return clone("w");
 		}
-
+		
 		public function get xx():AGALRegisterConstant {
-			_components = "xx";
-			return clone();
+			return clone("xx");
 		}
-
+		
 		public function get xy():AGALRegisterConstant {
-			_components = "xy";
-			return clone();
+			return clone("xy");
 		}
-
+		
 		public function get xz():AGALRegisterConstant {
-			_components = "xz";
-			return clone();
+			return clone("xz");
 		}
-
+		
 		public function get xw():AGALRegisterConstant {
-			_components = "xw";
-			return clone();
+			return clone("xw");
 		}
-
+		
 		public function get yx():AGALRegisterConstant {
-			_components = "yx";
-			return clone();
+			return clone("yx");
 		}
-
+		
 		public function get yy():AGALRegisterConstant {
-			_components = "yy";
-			return clone();
+			return clone("yy");
 		}
-
+		
 		public function get yz():AGALRegisterConstant {
-			_components = "yz";
-			return clone();
+			return clone("yz");
 		}
-
+		
 		public function get yw():AGALRegisterConstant {
-			_components = "yw";
-			return clone();
+			return clone("yw");
 		}
-
+		
 		public function get zx():AGALRegisterConstant {
-			_components = "zx";
-			return clone();
+			return clone("zx");
 		}
-
+		
 		public function get zy():AGALRegisterConstant {
-			_components = "zy";
-			return clone();
+			return clone("zy");
 		}
-
+		
 		public function get zz():AGALRegisterConstant {
-			_components = "zz";
-			return clone();
+			return clone("zz");
 		}
-
+		
 		public function get zw():AGALRegisterConstant {
-			_components = "zw";
-			return clone();
+			return clone("zw");
 		}
-
+		
 		public function get wx():AGALRegisterConstant {
-			_components = "wx";
-			return clone();
+			return clone("wx");
 		}
-
+		
 		public function get wy():AGALRegisterConstant {
-			_components = "wy";
-			return clone();
+			return clone("wy");
 		}
-
+		
 		public function get wz():AGALRegisterConstant {
-			_components = "wz";
-			return clone();
+			return clone("wz");
 		}
-
+		
 		public function get ww():AGALRegisterConstant {
-			_components = "ww";
-			return clone();
+			return clone("ww");
 		}
-
+		
 		public function get xxx():AGALRegisterConstant {
-			_components = "xxx";
-			return clone();
+			return clone("xxx");
 		}
-
+		
 		public function get xxy():AGALRegisterConstant {
-			_components = "xxy";
-			return clone();
+			return clone("xxy");
 		}
-
+		
 		public function get xxz():AGALRegisterConstant {
-			_components = "xxz";
-			return clone();
+			return clone("xxz");
 		}
-
+		
 		public function get xxw():AGALRegisterConstant {
-			_components = "xxw";
-			return clone();
+			return clone("xxw");
 		}
-
+		
 		public function get xyx():AGALRegisterConstant {
-			_components = "xyx";
-			return clone();
+			return clone("xyx");
 		}
-
+		
 		public function get xyy():AGALRegisterConstant {
-			_components = "xyy";
-			return clone();
+			return clone("xyy");
 		}
-
+		
 		public function get xyz():AGALRegisterConstant {
-			_components = "xyz";
-			return clone();
+			return clone("xyz");
 		}
-
+		
 		public function get xyw():AGALRegisterConstant {
-			_components = "xyw";
-			return clone();
+			return clone("xyw");
 		}
-
+		
 		public function get xzx():AGALRegisterConstant {
-			_components = "xzx";
-			return clone();
+			return clone("xzx");
 		}
-
+		
 		public function get xzy():AGALRegisterConstant {
-			_components = "xzy";
-			return clone();
+			return clone("xzy");
 		}
-
+		
 		public function get xzz():AGALRegisterConstant {
-			_components = "xzz";
-			return clone();
+			return clone("xzz");
 		}
-
+		
 		public function get xzw():AGALRegisterConstant {
-			_components = "xzw";
-			return clone();
+			return clone("xzw");
 		}
-
+		
 		public function get xwx():AGALRegisterConstant {
-			_components = "xwx";
-			return clone();
+			return clone("xwx");
 		}
-
+		
 		public function get xwy():AGALRegisterConstant {
-			_components = "xwy";
-			return clone();
+			return clone("xwy");
 		}
-
+		
 		public function get xwz():AGALRegisterConstant {
-			_components = "xwz";
-			return clone();
+			return clone("xwz");
 		}
-
+		
 		public function get xww():AGALRegisterConstant {
-			_components = "xww";
-			return clone();
+			return clone("xww");
 		}
-
+		
 		public function get yxx():AGALRegisterConstant {
-			_components = "yxx";
-			return clone();
+			return clone("yxx");
 		}
-
+		
 		public function get yxy():AGALRegisterConstant {
-			_components = "yxy";
-			return clone();
+			return clone("yxy");
 		}
-
+		
 		public function get yxz():AGALRegisterConstant {
-			_components = "yxz";
-			return clone();
+			return clone("yxz");
 		}
-
+		
 		public function get yxw():AGALRegisterConstant {
-			_components = "yxw";
-			return clone();
+			return clone("yxw");
 		}
-
+		
 		public function get yyx():AGALRegisterConstant {
-			_components = "yyx";
-			return clone();
+			return clone("yyx");
 		}
-
+		
 		public function get yyy():AGALRegisterConstant {
-			_components = "yyy";
-			return clone();
+			return clone("yyy");
 		}
-
+		
 		public function get yyz():AGALRegisterConstant {
-			_components = "yyz";
-			return clone();
+			return clone("yyz");
 		}
-
+		
 		public function get yyw():AGALRegisterConstant {
-			_components = "yyw";
-			return clone();
+			return clone("yyw");
 		}
-
+		
 		public function get yzx():AGALRegisterConstant {
-			_components = "yzx";
-			return clone();
+			return clone("yzx");
 		}
-
+		
 		public function get yzy():AGALRegisterConstant {
-			_components = "yzy";
-			return clone();
+			return clone("yzy");
 		}
-
+		
 		public function get yzz():AGALRegisterConstant {
-			_components = "yzz";
-			return clone();
+			return clone("yzz");
 		}
-
+		
 		public function get yzw():AGALRegisterConstant {
-			_components = "yzw";
-			return clone();
+			return clone("yzw");
 		}
-
+		
 		public function get ywx():AGALRegisterConstant {
-			_components = "ywx";
-			return clone();
+			return clone("ywx");
 		}
-
+		
 		public function get ywy():AGALRegisterConstant {
-			_components = "ywy";
-			return clone();
+			return clone("ywy");
 		}
-
+		
 		public function get ywz():AGALRegisterConstant {
-			_components = "ywz";
-			return clone();
+			return clone("ywz");
 		}
-
+		
 		public function get yww():AGALRegisterConstant {
-			_components = "yww";
-			return clone();
+			return clone("yww");
 		}
-
+		
 		public function get zxx():AGALRegisterConstant {
-			_components = "zxx";
-			return clone();
+			return clone("zxx");
 		}
-
+		
 		public function get zxy():AGALRegisterConstant {
-			_components = "zxy";
-			return clone();
+			return clone("zxy");
 		}
-
+		
 		public function get zxz():AGALRegisterConstant {
-			_components = "zxz";
-			return clone();
+			return clone("zxz");
 		}
-
+		
 		public function get zxw():AGALRegisterConstant {
-			_components = "zxw";
-			return clone();
+			return clone("zxw");
 		}
-
+		
 		public function get zyx():AGALRegisterConstant {
-			_components = "zyx";
-			return clone();
+			return clone("zyx");
 		}
-
+		
 		public function get zyy():AGALRegisterConstant {
-			_components = "zyy";
-			return clone();
+			return clone("zyy");
 		}
-
+		
 		public function get zyz():AGALRegisterConstant {
-			_components = "zyz";
-			return clone();
+			return clone("zyz");
 		}
-
+		
 		public function get zyw():AGALRegisterConstant {
-			_components = "zyw";
-			return clone();
+			return clone("zyw");
 		}
-
+		
 		public function get zzx():AGALRegisterConstant {
-			_components = "zzx";
-			return clone();
+			return clone("zzx");
 		}
-
+		
 		public function get zzy():AGALRegisterConstant {
-			_components = "zzy";
-			return clone();
+			return clone("zzy");
 		}
-
+		
 		public function get zzz():AGALRegisterConstant {
-			_components = "zzz";
-			return clone();
+			return clone("zzz");
 		}
-
+		
 		public function get zzw():AGALRegisterConstant {
-			_components = "zzw";
-			return clone();
+			return clone("zzw");
 		}
-
+		
 		public function get zwx():AGALRegisterConstant {
-			_components = "zwx";
-			return clone();
+			return clone("zwx");
 		}
-
+		
 		public function get zwy():AGALRegisterConstant {
-			_components = "zwy";
-			return clone();
+			return clone("zwy");
 		}
-
+		
 		public function get zwz():AGALRegisterConstant {
-			_components = "zwz";
-			return clone();
+			return clone("zwz");
 		}
-
+		
 		public function get zww():AGALRegisterConstant {
-			_components = "zww";
-			return clone();
+			return clone("zww");
 		}
-
+		
 		public function get wxx():AGALRegisterConstant {
-			_components = "wxx";
-			return clone();
+			return clone("wxx");
 		}
-
+		
 		public function get wxy():AGALRegisterConstant {
-			_components = "wxy";
-			return clone();
+			return clone("wxy");
 		}
-
+		
 		public function get wxz():AGALRegisterConstant {
-			_components = "wxz";
-			return clone();
+			return clone("wxz");
 		}
-
+		
 		public function get wxw():AGALRegisterConstant {
-			_components = "wxw";
-			return clone();
+			return clone("wxw");
 		}
-
+		
 		public function get wyx():AGALRegisterConstant {
-			_components = "wyx";
-			return clone();
+			return clone("wyx");
 		}
-
+		
 		public function get wyy():AGALRegisterConstant {
-			_components = "wyy";
-			return clone();
+			return clone("wyy");
 		}
-
+		
 		public function get wyz():AGALRegisterConstant {
-			_components = "wyz";
-			return clone();
+			return clone("wyz");
 		}
-
+		
 		public function get wyw():AGALRegisterConstant {
-			_components = "wyw";
-			return clone();
+			return clone("wyw");
 		}
-
+		
 		public function get wzx():AGALRegisterConstant {
-			_components = "wzx";
-			return clone();
+			return clone("wzx");
 		}
-
+		
 		public function get wzy():AGALRegisterConstant {
-			_components = "wzy";
-			return clone();
+			return clone("wzy");
 		}
-
+		
 		public function get wzz():AGALRegisterConstant {
-			_components = "wzz";
-			return clone();
+			return clone("wzz");
 		}
-
+		
 		public function get wzw():AGALRegisterConstant {
-			_components = "wzw";
-			return clone();
+			return clone("wzw");
 		}
-
+		
 		public function get wwx():AGALRegisterConstant {
-			_components = "wwx";
-			return clone();
+			return clone("wwx");
 		}
-
+		
 		public function get wwy():AGALRegisterConstant {
-			_components = "wwy";
-			return clone();
+			return clone("wwy");
 		}
-
+		
 		public function get wwz():AGALRegisterConstant {
-			_components = "wwz";
-			return clone();
+			return clone("wwz");
 		}
-
+		
 		public function get www():AGALRegisterConstant {
-			_components = "www";
-			return clone();
+			return clone("www");
 		}
-
+		
 		public function get xxxx():AGALRegisterConstant {
-			_components = "xxxx";
-			return clone();
+			return clone("xxxx");
 		}
-
+		
 		public function get xxxy():AGALRegisterConstant {
-			_components = "xxxy";
-			return clone();
+			return clone("xxxy");
 		}
-
+		
 		public function get xxxz():AGALRegisterConstant {
-			_components = "xxxz";
-			return clone();
+			return clone("xxxz");
 		}
-
+		
 		public function get xxxw():AGALRegisterConstant {
-			_components = "xxxw";
-			return clone();
+			return clone("xxxw");
 		}
-
+		
 		public function get xxyx():AGALRegisterConstant {
-			_components = "xxyx";
-			return clone();
+			return clone("xxyx");
 		}
-
+		
 		public function get xxyy():AGALRegisterConstant {
-			_components = "xxyy";
-			return clone();
+			return clone("xxyy");
 		}
-
+		
 		public function get xxyz():AGALRegisterConstant {
-			_components = "xxyz";
-			return clone();
+			return clone("xxyz");
 		}
-
+		
 		public function get xxyw():AGALRegisterConstant {
-			_components = "xxyw";
-			return clone();
+			return clone("xxyw");
 		}
-
+		
 		public function get xxzx():AGALRegisterConstant {
-			_components = "xxzx";
-			return clone();
+			return clone("xxzx");
 		}
-
+		
 		public function get xxzy():AGALRegisterConstant {
-			_components = "xxzy";
-			return clone();
+			return clone("xxzy");
 		}
-
+		
 		public function get xxzz():AGALRegisterConstant {
-			_components = "xxzz";
-			return clone();
+			return clone("xxzz");
 		}
-
+		
 		public function get xxzw():AGALRegisterConstant {
-			_components = "xxzw";
-			return clone();
+			return clone("xxzw");
 		}
-
+		
 		public function get xxwx():AGALRegisterConstant {
-			_components = "xxwx";
-			return clone();
+			return clone("xxwx");
 		}
-
+		
 		public function get xxwy():AGALRegisterConstant {
-			_components = "xxwy";
-			return clone();
+			return clone("xxwy");
 		}
-
+		
 		public function get xxwz():AGALRegisterConstant {
-			_components = "xxwz";
-			return clone();
+			return clone("xxwz");
 		}
-
+		
 		public function get xxww():AGALRegisterConstant {
-			_components = "xxww";
-			return clone();
+			return clone("xxww");
 		}
-
+		
 		public function get xyxx():AGALRegisterConstant {
-			_components = "xyxx";
-			return clone();
+			return clone("xyxx");
 		}
-
+		
 		public function get xyxy():AGALRegisterConstant {
-			_components = "xyxy";
-			return clone();
+			return clone("xyxy");
 		}
-
+		
 		public function get xyxz():AGALRegisterConstant {
-			_components = "xyxz";
-			return clone();
+			return clone("xyxz");
 		}
-
+		
 		public function get xyxw():AGALRegisterConstant {
-			_components = "xyxw";
-			return clone();
+			return clone("xyxw");
 		}
-
+		
 		public function get xyyx():AGALRegisterConstant {
-			_components = "xyyx";
-			return clone();
+			return clone("xyyx");
 		}
-
+		
 		public function get xyyy():AGALRegisterConstant {
-			_components = "xyyy";
-			return clone();
+			return clone("xyyy");
 		}
-
+		
 		public function get xyyz():AGALRegisterConstant {
-			_components = "xyyz";
-			return clone();
+			return clone("xyyz");
 		}
-
+		
 		public function get xyyw():AGALRegisterConstant {
-			_components = "xyyw";
-			return clone();
+			return clone("xyyw");
 		}
-
+		
 		public function get xyzx():AGALRegisterConstant {
-			_components = "xyzx";
-			return clone();
+			return clone("xyzx");
 		}
-
+		
 		public function get xyzy():AGALRegisterConstant {
-			_components = "xyzy";
-			return clone();
+			return clone("xyzy");
 		}
-
+		
 		public function get xyzz():AGALRegisterConstant {
-			_components = "xyzz";
-			return clone();
+			return clone("xyzz");
 		}
-
+		
 		public function get xyzw():AGALRegisterConstant {
-			_components = "xyzw";
-			return clone();
+			return clone("xyzw");
 		}
-
+		
 		public function get xywx():AGALRegisterConstant {
-			_components = "xywx";
-			return clone();
+			return clone("xywx");
 		}
-
+		
 		public function get xywy():AGALRegisterConstant {
-			_components = "xywy";
-			return clone();
+			return clone("xywy");
 		}
-
+		
 		public function get xywz():AGALRegisterConstant {
-			_components = "xywz";
-			return clone();
+			return clone("xywz");
 		}
-
+		
 		public function get xyww():AGALRegisterConstant {
-			_components = "xyww";
-			return clone();
+			return clone("xyww");
 		}
-
+		
 		public function get xzxx():AGALRegisterConstant {
-			_components = "xzxx";
-			return clone();
+			return clone("xzxx");
 		}
-
+		
 		public function get xzxy():AGALRegisterConstant {
-			_components = "xzxy";
-			return clone();
+			return clone("xzxy");
 		}
-
+		
 		public function get xzxz():AGALRegisterConstant {
-			_components = "xzxz";
-			return clone();
+			return clone("xzxz");
 		}
-
+		
 		public function get xzxw():AGALRegisterConstant {
-			_components = "xzxw";
-			return clone();
+			return clone("xzxw");
 		}
-
+		
 		public function get xzyx():AGALRegisterConstant {
-			_components = "xzyx";
-			return clone();
+			return clone("xzyx");
 		}
-
+		
 		public function get xzyy():AGALRegisterConstant {
-			_components = "xzyy";
-			return clone();
+			return clone("xzyy");
 		}
-
+		
 		public function get xzyz():AGALRegisterConstant {
-			_components = "xzyz";
-			return clone();
+			return clone("xzyz");
 		}
-
+		
 		public function get xzyw():AGALRegisterConstant {
-			_components = "xzyw";
-			return clone();
+			return clone("xzyw");
 		}
-
+		
 		public function get xzzx():AGALRegisterConstant {
-			_components = "xzzx";
-			return clone();
+			return clone("xzzx");
 		}
-
+		
 		public function get xzzy():AGALRegisterConstant {
-			_components = "xzzy";
-			return clone();
+			return clone("xzzy");
 		}
-
+		
 		public function get xzzz():AGALRegisterConstant {
-			_components = "xzzz";
-			return clone();
+			return clone("xzzz");
 		}
-
+		
 		public function get xzzw():AGALRegisterConstant {
-			_components = "xzzw";
-			return clone();
+			return clone("xzzw");
 		}
-
+		
 		public function get xzwx():AGALRegisterConstant {
-			_components = "xzwx";
-			return clone();
+			return clone("xzwx");
 		}
-
+		
 		public function get xzwy():AGALRegisterConstant {
-			_components = "xzwy";
-			return clone();
+			return clone("xzwy");
 		}
-
+		
 		public function get xzwz():AGALRegisterConstant {
-			_components = "xzwz";
-			return clone();
+			return clone("xzwz");
 		}
-
+		
 		public function get xzww():AGALRegisterConstant {
-			_components = "xzww";
-			return clone();
+			return clone("xzww");
 		}
-
+		
 		public function get xwxx():AGALRegisterConstant {
-			_components = "xwxx";
-			return clone();
+			return clone("xwxx");
 		}
-
+		
 		public function get xwxy():AGALRegisterConstant {
-			_components = "xwxy";
-			return clone();
+			return clone("xwxy");
 		}
-
+		
 		public function get xwxz():AGALRegisterConstant {
-			_components = "xwxz";
-			return clone();
+			return clone("xwxz");
 		}
-
+		
 		public function get xwxw():AGALRegisterConstant {
-			_components = "xwxw";
-			return clone();
+			return clone("xwxw");
 		}
-
+		
 		public function get xwyx():AGALRegisterConstant {
-			_components = "xwyx";
-			return clone();
+			return clone("xwyx");
 		}
-
+		
 		public function get xwyy():AGALRegisterConstant {
-			_components = "xwyy";
-			return clone();
+			return clone("xwyy");
 		}
-
+		
 		public function get xwyz():AGALRegisterConstant {
-			_components = "xwyz";
-			return clone();
+			return clone("xwyz");
 		}
-
+		
 		public function get xwyw():AGALRegisterConstant {
-			_components = "xwyw";
-			return clone();
+			return clone("xwyw");
 		}
-
+		
 		public function get xwzx():AGALRegisterConstant {
-			_components = "xwzx";
-			return clone();
+			return clone("xwzx");
 		}
-
+		
 		public function get xwzy():AGALRegisterConstant {
-			_components = "xwzy";
-			return clone();
+			return clone("xwzy");
 		}
-
+		
 		public function get xwzz():AGALRegisterConstant {
-			_components = "xwzz";
-			return clone();
+			return clone("xwzz");
 		}
-
+		
 		public function get xwzw():AGALRegisterConstant {
-			_components = "xwzw";
-			return clone();
+			return clone("xwzw");
 		}
-
+		
 		public function get xwwx():AGALRegisterConstant {
-			_components = "xwwx";
-			return clone();
+			return clone("xwwx");
 		}
-
+		
 		public function get xwwy():AGALRegisterConstant {
-			_components = "xwwy";
-			return clone();
+			return clone("xwwy");
 		}
-
+		
 		public function get xwwz():AGALRegisterConstant {
-			_components = "xwwz";
-			return clone();
+			return clone("xwwz");
 		}
-
+		
 		public function get xwww():AGALRegisterConstant {
-			_components = "xwww";
-			return clone();
+			return clone("xwww");
 		}
-
+		
 		public function get ():AGALRegisterConstant {
-			_components = "";
-			return clone();
+			_components = "";return clone("");
 		}
-
+		
 		public function get yxxx():AGALRegisterConstant {
-			_components = "yxxx";
-			return clone();
+			return clone("yxxx");
 		}
-
+		
 		public function get yxxy():AGALRegisterConstant {
-			_components = "yxxy";
-			return clone();
+			return clone("yxxy");
 		}
-
+		
 		public function get yxxz():AGALRegisterConstant {
-			_components = "yxxz";
-			return clone();
+			return clone("yxxz");
 		}
-
+		
 		public function get yxxw():AGALRegisterConstant {
-			_components = "yxxw";
-			return clone();
+			return clone("yxxw");
 		}
-
+		
 		public function get yxyx():AGALRegisterConstant {
-			_components = "yxyx";
-			return clone();
+			return clone("yxyx");
 		}
-
+		
 		public function get yxyy():AGALRegisterConstant {
-			_components = "yxyy";
-			return clone();
+			return clone("yxyy");
 		}
-
+		
 		public function get yxyz():AGALRegisterConstant {
-			_components = "yxyz";
-			return clone();
+			return clone("yxyz");
 		}
-
+		
 		public function get yxyw():AGALRegisterConstant {
-			_components = "yxyw";
-			return clone();
+			return clone("yxyw");
 		}
-
+		
 		public function get yxzx():AGALRegisterConstant {
-			_components = "yxzx";
-			return clone();
+			return clone("yxzx");
 		}
-
+		
 		public function get yxzy():AGALRegisterConstant {
-			_components = "yxzy";
-			return clone();
+			return clone("yxzy");
 		}
-
+		
 		public function get yxzz():AGALRegisterConstant {
-			_components = "yxzz";
-			return clone();
+			return clone("yxzz");
 		}
-
+		
 		public function get yxzw():AGALRegisterConstant {
-			_components = "yxzw";
-			return clone();
+			return clone("yxzw");
 		}
-
+		
 		public function get yxwx():AGALRegisterConstant {
-			_components = "yxwx";
-			return clone();
+			return clone("yxwx");
 		}
-
+		
 		public function get yxwy():AGALRegisterConstant {
-			_components = "yxwy";
-			return clone();
+			return clone("yxwy");
 		}
-
+		
 		public function get yxwz():AGALRegisterConstant {
-			_components = "yxwz";
-			return clone();
+			return clone("yxwz");
 		}
-
+		
 		public function get yxww():AGALRegisterConstant {
-			_components = "yxww";
-			return clone();
+			return clone("yxww");
 		}
-
+		
 		public function get yyxx():AGALRegisterConstant {
-			_components = "yyxx";
-			return clone();
+			return clone("yyxx");
 		}
-
+		
 		public function get yyxy():AGALRegisterConstant {
-			_components = "yyxy";
-			return clone();
+			return clone("yyxy");
 		}
-
+		
 		public function get yyxz():AGALRegisterConstant {
-			_components = "yyxz";
-			return clone();
+			return clone("yyxz");
 		}
-
+		
 		public function get yyxw():AGALRegisterConstant {
-			_components = "yyxw";
-			return clone();
+			return clone("yyxw");
 		}
-
+		
 		public function get yyyx():AGALRegisterConstant {
-			_components = "yyyx";
-			return clone();
+			return clone("yyyx");
 		}
-
+		
 		public function get yyyy():AGALRegisterConstant {
-			_components = "yyyy";
-			return clone();
+			return clone("yyyy");
 		}
-
+		
 		public function get yyyz():AGALRegisterConstant {
-			_components = "yyyz";
-			return clone();
+			return clone("yyyz");
 		}
-
+		
 		public function get yyyw():AGALRegisterConstant {
-			_components = "yyyw";
-			return clone();
+			return clone("yyyw");
 		}
-
+		
 		public function get yyzx():AGALRegisterConstant {
-			_components = "yyzx";
-			return clone();
+			return clone("yyzx");
 		}
-
+		
 		public function get yyzy():AGALRegisterConstant {
-			_components = "yyzy";
-			return clone();
+			return clone("yyzy");
 		}
-
+		
 		public function get yyzz():AGALRegisterConstant {
-			_components = "yyzz";
-			return clone();
+			return clone("yyzz");
 		}
-
+		
 		public function get yyzw():AGALRegisterConstant {
-			_components = "yyzw";
-			return clone();
+			return clone("yyzw");
 		}
-
+		
 		public function get yywx():AGALRegisterConstant {
-			_components = "yywx";
-			return clone();
+			return clone("yywx");
 		}
-
+		
 		public function get yywy():AGALRegisterConstant {
-			_components = "yywy";
-			return clone();
+			return clone("yywy");
 		}
-
+		
 		public function get yywz():AGALRegisterConstant {
-			_components = "yywz";
-			return clone();
+			return clone("yywz");
 		}
-
+		
 		public function get yyww():AGALRegisterConstant {
-			_components = "yyww";
-			return clone();
+			return clone("yyww");
 		}
-
+		
 		public function get yzxx():AGALRegisterConstant {
-			_components = "yzxx";
-			return clone();
+			return clone("yzxx");
 		}
-
+		
 		public function get yzxy():AGALRegisterConstant {
-			_components = "yzxy";
-			return clone();
+			return clone("yzxy");
 		}
-
+		
 		public function get yzxz():AGALRegisterConstant {
-			_components = "yzxz";
-			return clone();
+			return clone("yzxz");
 		}
-
+		
 		public function get yzxw():AGALRegisterConstant {
-			_components = "yzxw";
-			return clone();
+			return clone("yzxw");
 		}
-
+		
 		public function get yzyx():AGALRegisterConstant {
-			_components = "yzyx";
-			return clone();
+			return clone("yzyx");
 		}
-
+		
 		public function get yzyy():AGALRegisterConstant {
-			_components = "yzyy";
-			return clone();
+			return clone("yzyy");
 		}
-
+		
 		public function get yzyz():AGALRegisterConstant {
-			_components = "yzyz";
-			return clone();
+			return clone("yzyz");
 		}
-
+		
 		public function get yzyw():AGALRegisterConstant {
-			_components = "yzyw";
-			return clone();
+			return clone("yzyw");
 		}
-
+		
 		public function get yzzx():AGALRegisterConstant {
-			_components = "yzzx";
-			return clone();
+			return clone("yzzx");
 		}
-
+		
 		public function get yzzy():AGALRegisterConstant {
-			_components = "yzzy";
-			return clone();
+			return clone("yzzy");
 		}
-
+		
 		public function get yzzz():AGALRegisterConstant {
-			_components = "yzzz";
-			return clone();
+			return clone("yzzz");
 		}
-
+		
 		public function get yzzw():AGALRegisterConstant {
-			_components = "yzzw";
-			return clone();
+			return clone("yzzw");
 		}
-
+		
 		public function get yzwx():AGALRegisterConstant {
-			_components = "yzwx";
-			return clone();
+			return clone("yzwx");
 		}
-
+		
 		public function get yzwy():AGALRegisterConstant {
-			_components = "yzwy";
-			return clone();
+			return clone("yzwy");
 		}
-
+		
 		public function get yzwz():AGALRegisterConstant {
-			_components = "yzwz";
-			return clone();
+			return clone("yzwz");
 		}
-
+		
 		public function get yzww():AGALRegisterConstant {
-			_components = "yzww";
-			return clone();
+			return clone("yzww");
 		}
-
+		
 		public function get ywxx():AGALRegisterConstant {
-			_components = "ywxx";
-			return clone();
+			return clone("ywxx");
 		}
-
+		
 		public function get ywxy():AGALRegisterConstant {
-			_components = "ywxy";
-			return clone();
+			return clone("ywxy");
 		}
-
+		
 		public function get ywxz():AGALRegisterConstant {
-			_components = "ywxz";
-			return clone();
+			return clone("ywxz");
 		}
-
+		
 		public function get ywxw():AGALRegisterConstant {
-			_components = "ywxw";
-			return clone();
+			return clone("ywxw");
 		}
-
+		
 		public function get ywyx():AGALRegisterConstant {
-			_components = "ywyx";
-			return clone();
+			return clone("ywyx");
 		}
-
+		
 		public function get ywyy():AGALRegisterConstant {
-			_components = "ywyy";
-			return clone();
+			return clone("ywyy");
 		}
-
+		
 		public function get ywyz():AGALRegisterConstant {
-			_components = "ywyz";
-			return clone();
+			return clone("ywyz");
 		}
-
+		
 		public function get ywyw():AGALRegisterConstant {
-			_components = "ywyw";
-			return clone();
+			return clone("ywyw");
 		}
-
+		
 		public function get ywzx():AGALRegisterConstant {
-			_components = "ywzx";
-			return clone();
+			return clone("ywzx");
 		}
-
+		
 		public function get ywzy():AGALRegisterConstant {
-			_components = "ywzy";
-			return clone();
+			return clone("ywzy");
 		}
-
+		
 		public function get ywzz():AGALRegisterConstant {
-			_components = "ywzz";
-			return clone();
+			return clone("ywzz");
 		}
-
+		
 		public function get ywzw():AGALRegisterConstant {
-			_components = "ywzw";
-			return clone();
+			return clone("ywzw");
 		}
-
+		
 		public function get ywwx():AGALRegisterConstant {
-			_components = "ywwx";
-			return clone();
+			return clone("ywwx");
 		}
-
+		
 		public function get ywwy():AGALRegisterConstant {
-			_components = "ywwy";
-			return clone();
+			return clone("ywwy");
 		}
-
+		
 		public function get ywwz():AGALRegisterConstant {
-			_components = "ywwz";
-			return clone();
+			return clone("ywwz");
 		}
-
+		
 		public function get ywww():AGALRegisterConstant {
-			_components = "ywww";
-			return clone();
+			return clone("ywww");
 		}
-
+		
 		public function get zxxx():AGALRegisterConstant {
-			_components = "zxxx";
-			return clone();
+			return clone("zxxx");
 		}
-
+		
 		public function get zxxy():AGALRegisterConstant {
-			_components = "zxxy";
-			return clone();
+			return clone("zxxy");
 		}
-
+		
 		public function get zxxz():AGALRegisterConstant {
-			_components = "zxxz";
-			return clone();
+			return clone("zxxz");
 		}
-
+		
 		public function get zxxw():AGALRegisterConstant {
-			_components = "zxxw";
-			return clone();
+			return clone("zxxw");
 		}
-
+		
 		public function get zxyx():AGALRegisterConstant {
-			_components = "zxyx";
-			return clone();
+			return clone("zxyx");
 		}
-
+		
 		public function get zxyy():AGALRegisterConstant {
-			_components = "zxyy";
-			return clone();
+			return clone("zxyy");
 		}
-
+		
 		public function get zxyz():AGALRegisterConstant {
-			_components = "zxyz";
-			return clone();
+			return clone("zxyz");
 		}
-
+		
 		public function get zxyw():AGALRegisterConstant {
-			_components = "zxyw";
-			return clone();
+			return clone("zxyw");
 		}
-
+		
 		public function get zxzx():AGALRegisterConstant {
-			_components = "zxzx";
-			return clone();
+			return clone("zxzx");
 		}
-
+		
 		public function get zxzy():AGALRegisterConstant {
-			_components = "zxzy";
-			return clone();
+			return clone("zxzy");
 		}
-
+		
 		public function get zxzz():AGALRegisterConstant {
-			_components = "zxzz";
-			return clone();
+			return clone("zxzz");
 		}
-
+		
 		public function get zxzw():AGALRegisterConstant {
-			_components = "zxzw";
-			return clone();
+			return clone("zxzw");
 		}
-
+		
 		public function get zxwx():AGALRegisterConstant {
-			_components = "zxwx";
-			return clone();
+			return clone("zxwx");
 		}
-
+		
 		public function get zxwy():AGALRegisterConstant {
-			_components = "zxwy";
-			return clone();
+			return clone("zxwy");
 		}
-
+		
 		public function get zxwz():AGALRegisterConstant {
-			_components = "zxwz";
-			return clone();
+			return clone("zxwz");
 		}
-
+		
 		public function get zxww():AGALRegisterConstant {
-			_components = "zxww";
-			return clone();
+			return clone("zxww");
 		}
-
+		
 		public function get zyxx():AGALRegisterConstant {
-			_components = "zyxx";
-			return clone();
+			return clone("zyxx");
 		}
-
+		
 		public function get zyxy():AGALRegisterConstant {
-			_components = "zyxy";
-			return clone();
+			return clone("zyxy");
 		}
-
+		
 		public function get zyxz():AGALRegisterConstant {
-			_components = "zyxz";
-			return clone();
+			return clone("zyxz");
 		}
-
+		
 		public function get zyxw():AGALRegisterConstant {
-			_components = "zyxw";
-			return clone();
+			return clone("zyxw");
 		}
-
+		
 		public function get zyyx():AGALRegisterConstant {
-			_components = "zyyx";
-			return clone();
+			return clone("zyyx");
 		}
-
+		
 		public function get zyyy():AGALRegisterConstant {
-			_components = "zyyy";
-			return clone();
+			return clone("zyyy");
 		}
-
+		
 		public function get zyyz():AGALRegisterConstant {
-			_components = "zyyz";
-			return clone();
+			return clone("zyyz");
 		}
-
+		
 		public function get zyyw():AGALRegisterConstant {
-			_components = "zyyw";
-			return clone();
+			return clone("zyyw");
 		}
-
+		
 		public function get zyzx():AGALRegisterConstant {
-			_components = "zyzx";
-			return clone();
+			return clone("zyzx");
 		}
-
+		
 		public function get zyzy():AGALRegisterConstant {
-			_components = "zyzy";
-			return clone();
+			return clone("zyzy");
 		}
-
+		
 		public function get zyzz():AGALRegisterConstant {
-			_components = "zyzz";
-			return clone();
+			return clone("zyzz");
 		}
-
+		
 		public function get zyzw():AGALRegisterConstant {
-			_components = "zyzw";
-			return clone();
+			return clone("zyzw");
 		}
-
+		
 		public function get zywx():AGALRegisterConstant {
-			_components = "zywx";
-			return clone();
+			return clone("zywx");
 		}
-
+		
 		public function get zywy():AGALRegisterConstant {
-			_components = "zywy";
-			return clone();
+			return clone("zywy");
 		}
-
+		
 		public function get zywz():AGALRegisterConstant {
-			_components = "zywz";
-			return clone();
+			return clone("zywz");
 		}
-
+		
 		public function get zyww():AGALRegisterConstant {
-			_components = "zyww";
-			return clone();
+			return clone("zyww");
 		}
-
+		
 		public function get zzxx():AGALRegisterConstant {
-			_components = "zzxx";
-			return clone();
+			return clone("zzxx");
 		}
-
+		
 		public function get zzxy():AGALRegisterConstant {
-			_components = "zzxy";
-			return clone();
+			return clone("zzxy");
 		}
-
+		
 		public function get zzxz():AGALRegisterConstant {
-			_components = "zzxz";
-			return clone();
+			return clone("zzxz");
 		}
-
+		
 		public function get zzxw():AGALRegisterConstant {
-			_components = "zzxw";
-			return clone();
+			return clone("zzxw");
 		}
-
+		
 		public function get zzyx():AGALRegisterConstant {
-			_components = "zzyx";
-			return clone();
+			return clone("zzyx");
 		}
-
+		
 		public function get zzyy():AGALRegisterConstant {
-			_components = "zzyy";
-			return clone();
+			return clone("zzyy");
 		}
-
+		
 		public function get zzyz():AGALRegisterConstant {
-			_components = "zzyz";
-			return clone();
+			return clone("zzyz");
 		}
-
+		
 		public function get zzyw():AGALRegisterConstant {
-			_components = "zzyw";
-			return clone();
+			return clone("zzyw");
 		}
-
+		
 		public function get zzzx():AGALRegisterConstant {
-			_components = "zzzx";
-			return clone();
+			return clone("zzzx");
 		}
-
+		
 		public function get zzzy():AGALRegisterConstant {
-			_components = "zzzy";
-			return clone();
+			return clone("zzzy");
 		}
-
+		
 		public function get zzzz():AGALRegisterConstant {
-			_components = "zzzz";
-			return clone();
+			return clone("zzzz");
 		}
-
+		
 		public function get zzzw():AGALRegisterConstant {
-			_components = "zzzw";
-			return clone();
+			return clone("zzzw");
 		}
-
+		
 		public function get zzwx():AGALRegisterConstant {
-			_components = "zzwx";
-			return clone();
+			return clone("zzwx");
 		}
-
+		
 		public function get zzwy():AGALRegisterConstant {
-			_components = "zzwy";
-			return clone();
+			return clone("zzwy");
 		}
-
+		
 		public function get zzwz():AGALRegisterConstant {
-			_components = "zzwz";
-			return clone();
+			return clone("zzwz");
 		}
-
+		
 		public function get zzww():AGALRegisterConstant {
-			_components = "zzww";
-			return clone();
+			return clone("zzww");
 		}
-
+		
 		public function get zwxx():AGALRegisterConstant {
-			_components = "zwxx";
-			return clone();
+			return clone("zwxx");
 		}
-
+		
 		public function get zwxy():AGALRegisterConstant {
-			_components = "zwxy";
-			return clone();
+			return clone("zwxy");
 		}
-
+		
 		public function get zwxz():AGALRegisterConstant {
-			_components = "zwxz";
-			return clone();
+			return clone("zwxz");
 		}
-
+		
 		public function get zwxw():AGALRegisterConstant {
-			_components = "zwxw";
-			return clone();
+			return clone("zwxw");
 		}
-
+		
 		public function get zwyx():AGALRegisterConstant {
-			_components = "zwyx";
-			return clone();
+			return clone("zwyx");
 		}
-
+		
 		public function get zwyy():AGALRegisterConstant {
-			_components = "zwyy";
-			return clone();
+			return clone("zwyy");
 		}
-
+		
 		public function get zwyz():AGALRegisterConstant {
-			_components = "zwyz";
-			return clone();
+			return clone("zwyz");
 		}
-
+		
 		public function get zwyw():AGALRegisterConstant {
-			_components = "zwyw";
-			return clone();
+			return clone("zwyw");
 		}
-
+		
 		public function get zwzx():AGALRegisterConstant {
-			_components = "zwzx";
-			return clone();
+			return clone("zwzx");
 		}
-
+		
 		public function get zwzy():AGALRegisterConstant {
-			_components = "zwzy";
-			return clone();
+			return clone("zwzy");
 		}
-
+		
 		public function get zwzz():AGALRegisterConstant {
-			_components = "zwzz";
-			return clone();
+			return clone("zwzz");
 		}
-
+		
 		public function get zwzw():AGALRegisterConstant {
-			_components = "zwzw";
-			return clone();
+			return clone("zwzw");
 		}
-
+		
 		public function get zwwx():AGALRegisterConstant {
-			_components = "zwwx";
-			return clone();
+			return clone("zwwx");
 		}
-
+		
 		public function get zwwy():AGALRegisterConstant {
-			_components = "zwwy";
-			return clone();
+			return clone("zwwy");
 		}
-
+		
 		public function get zwwz():AGALRegisterConstant {
-			_components = "zwwz";
-			return clone();
+			return clone("zwwz");
 		}
-
+		
 		public function get zwww():AGALRegisterConstant {
-			_components = "zwww";
-			return clone();
+			return clone("zwww");
 		}
-
+		
 		public function get wxxx():AGALRegisterConstant {
-			_components = "wxxx";
-			return clone();
+			return clone("wxxx");
 		}
-
+		
 		public function get wxxy():AGALRegisterConstant {
-			_components = "wxxy";
-			return clone();
+			return clone("wxxy");
 		}
-
+		
 		public function get wxxz():AGALRegisterConstant {
-			_components = "wxxz";
-			return clone();
+			return clone("wxxz");
 		}
-
+		
 		public function get wxxw():AGALRegisterConstant {
-			_components = "wxxw";
-			return clone();
+			return clone("wxxw");
 		}
-
+		
 		public function get wxyx():AGALRegisterConstant {
-			_components = "wxyx";
-			return clone();
+			return clone("wxyx");
 		}
-
+		
 		public function get wxyy():AGALRegisterConstant {
-			_components = "wxyy";
-			return clone();
+			return clone("wxyy");
 		}
-
+		
 		public function get wxyz():AGALRegisterConstant {
-			_components = "wxyz";
-			return clone();
+			return clone("wxyz");
 		}
-
+		
 		public function get wxyw():AGALRegisterConstant {
-			_components = "wxyw";
-			return clone();
+			return clone("wxyw");
 		}
-
+		
 		public function get wxzx():AGALRegisterConstant {
-			_components = "wxzx";
-			return clone();
+			return clone("wxzx");
 		}
-
+		
 		public function get wxzy():AGALRegisterConstant {
-			_components = "wxzy";
-			return clone();
+			return clone("wxzy");
 		}
-
+		
 		public function get wxzz():AGALRegisterConstant {
-			_components = "wxzz";
-			return clone();
+			return clone("wxzz");
 		}
-
+		
 		public function get wxzw():AGALRegisterConstant {
-			_components = "wxzw";
-			return clone();
+			return clone("wxzw");
 		}
-
+		
 		public function get wxwx():AGALRegisterConstant {
-			_components = "wxwx";
-			return clone();
+			return clone("wxwx");
 		}
-
+		
 		public function get wxwy():AGALRegisterConstant {
-			_components = "wxwy";
-			return clone();
+			return clone("wxwy");
 		}
-
+		
 		public function get wxwz():AGALRegisterConstant {
-			_components = "wxwz";
-			return clone();
+			return clone("wxwz");
 		}
-
+		
 		public function get wxww():AGALRegisterConstant {
-			_components = "wxww";
-			return clone();
+			return clone("wxww");
 		}
-
+		
 		public function get wyxx():AGALRegisterConstant {
-			_components = "wyxx";
-			return clone();
+			return clone("wyxx");
 		}
-
+		
 		public function get wyxy():AGALRegisterConstant {
-			_components = "wyxy";
-			return clone();
+			return clone("wyxy");
 		}
-
+		
 		public function get wyxz():AGALRegisterConstant {
-			_components = "wyxz";
-			return clone();
+			return clone("wyxz");
 		}
-
+		
 		public function get wyxw():AGALRegisterConstant {
-			_components = "wyxw";
-			return clone();
+			return clone("wyxw");
 		}
-
+		
 		public function get wyyx():AGALRegisterConstant {
-			_components = "wyyx";
-			return clone();
+			return clone("wyyx");
 		}
-
+		
 		public function get wyyy():AGALRegisterConstant {
-			_components = "wyyy";
-			return clone();
+			return clone("wyyy");
 		}
-
+		
 		public function get wyyz():AGALRegisterConstant {
-			_components = "wyyz";
-			return clone();
+			return clone("wyyz");
 		}
-
+		
 		public function get wyyw():AGALRegisterConstant {
-			_components = "wyyw";
-			return clone();
+			return clone("wyyw");
 		}
-
+		
 		public function get wyzx():AGALRegisterConstant {
-			_components = "wyzx";
-			return clone();
+			return clone("wyzx");
 		}
-
+		
 		public function get wyzy():AGALRegisterConstant {
-			_components = "wyzy";
-			return clone();
+			return clone("wyzy");
 		}
-
+		
 		public function get wyzz():AGALRegisterConstant {
-			_components = "wyzz";
-			return clone();
+			return clone("wyzz");
 		}
-
+		
 		public function get wyzw():AGALRegisterConstant {
-			_components = "wyzw";
-			return clone();
+			return clone("wyzw");
 		}
-
+		
 		public function get wywx():AGALRegisterConstant {
-			_components = "wywx";
-			return clone();
+			return clone("wywx");
 		}
-
+		
 		public function get wywy():AGALRegisterConstant {
-			_components = "wywy";
-			return clone();
+			return clone("wywy");
 		}
-
+		
 		public function get wywz():AGALRegisterConstant {
-			_components = "wywz";
-			return clone();
+			return clone("wywz");
 		}
-
+		
 		public function get wyww():AGALRegisterConstant {
-			_components = "wyww";
-			return clone();
+			return clone("wyww");
 		}
-
+		
 		public function get wzxx():AGALRegisterConstant {
-			_components = "wzxx";
-			return clone();
+			return clone("wzxx");
 		}
-
+		
 		public function get wzxy():AGALRegisterConstant {
-			_components = "wzxy";
-			return clone();
+			return clone("wzxy");
 		}
-
+		
 		public function get wzxz():AGALRegisterConstant {
-			_components = "wzxz";
-			return clone();
+			return clone("wzxz");
 		}
-
+		
 		public function get wzxw():AGALRegisterConstant {
-			_components = "wzxw";
-			return clone();
+			return clone("wzxw");
 		}
-
+		
 		public function get wzyx():AGALRegisterConstant {
-			_components = "wzyx";
-			return clone();
+			return clone("wzyx");
 		}
-
+		
 		public function get wzyy():AGALRegisterConstant {
-			_components = "wzyy";
-			return clone();
+			return clone("wzyy");
 		}
-
+		
 		public function get wzyz():AGALRegisterConstant {
-			_components = "wzyz";
-			return clone();
+			return clone("wzyz");
 		}
-
+		
 		public function get wzyw():AGALRegisterConstant {
-			_components = "wzyw";
-			return clone();
+			return clone("wzyw");
 		}
-
+		
 		public function get wzzx():AGALRegisterConstant {
-			_components = "wzzx";
-			return clone();
+			return clone("wzzx");
 		}
-
+		
 		public function get wzzy():AGALRegisterConstant {
-			_components = "wzzy";
-			return clone();
+			return clone("wzzy");
 		}
-
+		
 		public function get wzzz():AGALRegisterConstant {
-			_components = "wzzz";
-			return clone();
+			return clone("wzzz");
 		}
-
+		
 		public function get wzzw():AGALRegisterConstant {
-			_components = "wzzw";
-			return clone();
+			return clone("wzzw");
 		}
-
+		
 		public function get wzwx():AGALRegisterConstant {
-			_components = "wzwx";
-			return clone();
+			return clone("wzwx");
 		}
-
+		
 		public function get wzwy():AGALRegisterConstant {
-			_components = "wzwy";
-			return clone();
+			return clone("wzwy");
 		}
-
+		
 		public function get wzwz():AGALRegisterConstant {
-			_components = "wzwz";
-			return clone();
+			return clone("wzwz");
 		}
-
+		
 		public function get wzww():AGALRegisterConstant {
-			_components = "wzww";
-			return clone();
+			return clone("wzww");
 		}
-
+		
 		public function get wwxx():AGALRegisterConstant {
-			_components = "wwxx";
-			return clone();
+			return clone("wwxx");
 		}
-
+		
 		public function get wwxy():AGALRegisterConstant {
-			_components = "wwxy";
-			return clone();
+			return clone("wwxy");
 		}
-
+		
 		public function get wwxz():AGALRegisterConstant {
-			_components = "wwxz";
-			return clone();
+			return clone("wwxz");
 		}
-
+		
 		public function get wwxw():AGALRegisterConstant {
-			_components = "wwxw";
-			return clone();
+			return clone("wwxw");
 		}
-
+		
 		public function get wwyx():AGALRegisterConstant {
-			_components = "wwyx";
-			return clone();
+			return clone("wwyx");
 		}
-
+		
 		public function get wwyy():AGALRegisterConstant {
-			_components = "wwyy";
-			return clone();
+			return clone("wwyy");
 		}
-
+		
 		public function get wwyz():AGALRegisterConstant {
-			_components = "wwyz";
-			return clone();
+			return clone("wwyz");
 		}
-
+		
 		public function get wwyw():AGALRegisterConstant {
-			_components = "wwyw";
-			return clone();
+			return clone("wwyw");
 		}
-
+		
 		public function get wwzx():AGALRegisterConstant {
-			_components = "wwzx";
-			return clone();
+			return clone("wwzx");
 		}
-
+		
 		public function get wwzy():AGALRegisterConstant {
-			_components = "wwzy";
-			return clone();
+			return clone("wwzy");
 		}
-
+		
 		public function get wwzz():AGALRegisterConstant {
-			_components = "wwzz";
-			return clone();
+			return clone("wwzz");
 		}
-
+		
 		public function get wwzw():AGALRegisterConstant {
-			_components = "wwzw";
-			return clone();
+			return clone("wwzw");
 		}
-
+		
 		public function get wwwx():AGALRegisterConstant {
-			_components = "wwwx";
-			return clone();
+			return clone("wwwx");
 		}
-
+		
 		public function get wwwy():AGALRegisterConstant {
-			_components = "wwwy";
-			return clone();
+			return clone("wwwy");
 		}
-
+		
 		public function get wwwz():AGALRegisterConstant {
-			_components = "wwwz";
-			return clone();
+			return clone("wwwz");
 		}
-
+		
 		public function get wwww():AGALRegisterConstant {
-			_components = "wwww";
-			return clone();
+			return clone("wwww");
 		}
 
 	}
