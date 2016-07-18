@@ -78,14 +78,26 @@ package harayoki.stage3d.agal {
 
 		public function prependCodeDirectly(code:String):void {
 			if(code != null && code.length > 0) {
-				_codes.unshift(code.split("\n"));
+				var codes = code.split("\n");
+				var i:int = codes.length;
+				while(i--) {
+					if(codes[i].length>0) {
+						_codes.unshift(codes[i]);
+					}
+				}
 			}
 			_codeLengthCheck();
 		}
 
 		public function appendCodeDirectly(code:String):void {
 			if(code != null && code.length > 0) {
-				_codes.push(code.split("\n"));
+				var codes = code.split("\n");
+				var len:int = codes.length;
+				for(var i:int=0;i<len;i++) {
+					if(codes[i].length>0) {
+						_codes.push(codes[i]);
+					}
+				}
 			}
 			_codeLengthCheck();
 		}
